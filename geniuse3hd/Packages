@@ -1,0 +1,2558 @@
+Package: base-files-dbg
+Version: 3.0.14-r0.10
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: d510cbcd0869dcb417b2ab948b75cd09
+SHA256sum: 170ae87a3dcb1fe1bd950e680dea95e2464e3b3cb395cc44fb366133ef915dd7
+Size: 648
+Filename: base-files-dbg_3.0.14-r0.10_geniuse3hd.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Debugging files
+OE: base-files
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: base-files-dev
+Version: 3.0.14-r0.10
+Recommends: base-files (= 3.0.14-r0.10)
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: fb827b968d0ec4e1721ed390dfd48321
+SHA256sum: a5852035e682182f9f2767068d0fd7f76bb93a0b431b99391002a090dc9d219d
+Size: 686
+Filename: base-files-dev_3.0.14-r0.10_geniuse3hd.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Development files
+OE: base-files
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: base-files-doc
+Version: 3.0.14-r0.10
+Section: doc
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: 2b8a2362d95fd494db28efb633a44ce7
+SHA256sum: 2f74adb9d384289a322abf9945e37b7837c0a0cf4ab0a7198006ac81e868608d
+Size: 762
+Filename: base-files-doc_3.0.14-r0.10_geniuse3hd.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Documentation files
+OE: base-files
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: base-files
+Version: 3.0.14-r0.10
+Section: base
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: e1276a00c4b49d6dbcdd53f05bfbed4d
+SHA256sum: d5ad89b4805124f2a8b62bbe4011d0332315c454392e03da1fd5c0af28edf350
+Size: 3972
+Filename: base-files_3.0.14-r0.10_geniuse3hd.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system
+OE: base-files
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma-info
+Version: 5.9-r20250820-geniuse3hd
+Replaces: enigma-kernel-module
+Conflicts: enigma-kernel-module
+Section: base
+Architecture: geniuse3hd
+Maintainer: oe-alliance team
+MD5Sum: 39a18ee06615c65a761837fb85bb6625
+SHA256sum: ed84fa69eba7852e019b0f9c9a65ed3f5918f37fe03a022aced85200a82eae1e
+Size: 1410
+Filename: enigma-info_5.9-r20250820-geniuse3hd_geniuse3hd.ipk
+Source: enigma-info.bb
+Description: enigma.info used by BoxInfo
+OE: enigma-info
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-boxlogos-dbg
+Version: 1.0+gitr28+45a84500+45a845077c-r0
+Section: devel
+Architecture: geniuse3hd
+Maintainer: DimitarCC
+MD5Sum: 9c82272937b9646468f8651a5347d74b
+SHA256sum: e18f1b3fc47568d677274373d692aa7d7eaaebe91a74c2dc00b903e15688a873
+Size: 610
+Filename: enigma2-boxlogos-dbg_1.0+gitr28+45a84500+45a845077c-r0_geniuse3hd.ipk
+Source: enigma2-boxlogos.bb
+Description: enigma2-boxlogos version 1.0+gitr-r0 - Debugging files
+OE: enigma2-boxlogos
+HomePage: https://github.com/DimitarCC/e2-boxlogos
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-boxlogos-dev
+Version: 1.0+gitr28+45a84500+45a845077c-r0
+Recommends: enigma2-boxlogos (= 1.0+gitr28+45a84500+45a845077c-r0)
+Section: devel
+Architecture: geniuse3hd
+Maintainer: DimitarCC
+MD5Sum: 70341fb8f30a2499b893afaf1e9d4150
+SHA256sum: 25ef5df0a9e3f1eb2a0069e8ed981c391fba83f521b7534e61cf4447ea1fba0d
+Size: 646
+Filename: enigma2-boxlogos-dev_1.0+gitr28+45a84500+45a845077c-r0_geniuse3hd.ipk
+Source: enigma2-boxlogos.bb
+Description: enigma2-boxlogos version 1.0+gitr-r0 - Development files
+OE: enigma2-boxlogos
+HomePage: https://github.com/DimitarCC/e2-boxlogos
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-boxlogos-src
+Version: 1.0+gitr28+45a84500+45a845077c-r0
+Section: devel
+Architecture: geniuse3hd
+Maintainer: DimitarCC
+MD5Sum: 40c41da6877acaf02d0edc39b2ff199c
+SHA256sum: c45c51eff3b13d79604e5952b8e836e4cf4fc162ae17458ca935fec04eafae7e
+Size: 1882
+Filename: enigma2-boxlogos-src_1.0+gitr28+45a84500+45a845077c-r0_geniuse3hd.ipk
+Source: enigma2-boxlogos.bb
+Description: enigma2-boxlogos version 1.0+gitr-r0 - Source files
+OE: enigma2-boxlogos
+HomePage: https://github.com/DimitarCC/e2-boxlogos
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-boxlogos
+Version: 1.0+gitr28+45a84500+45a845077c-r0
+Section: base
+Architecture: geniuse3hd
+Maintainer: DimitarCC
+MD5Sum: 122fec6f459c75fff7409579756ecd46
+SHA256sum: ba2ca9d204d1cc4ac77a6cdc8d68a8a2fc76b2a8435d972bc2d86c228a510ce9
+Size: 3676
+Filename: enigma2-boxlogos_1.0+gitr28+45a84500+45a845077c-r0_geniuse3hd.ipk
+Source: enigma2-boxlogos.bb
+Description: enigma2-boxlogos version 1.0+gitr-r0
+OE: enigma2-boxlogos
+HomePage: https://github.com/DimitarCC/e2-boxlogos
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-dbg
+Version: 5.9+git0+0-r0
+Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libcrypto-dbg, libcurl-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libgcc-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-turbo-dbg, libpng-dbg, libpython3-dbg, libsigc++-3-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libudfread-dbg, libwebp-dbg, libxcrypt-dbg, libxml2-dbg, tuxtxt-enigma2-dbg
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: c04e3407a66792f08cb9d9f8de172bf0
+SHA256sum: 7f580e941237c1104e458a9391a0e1a9a322f91fd7acbc5f4f9e7e679df50903
+Size: 34046
+Filename: enigma2-dbg_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Debugging files
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-dev
+Version: 5.9+git0+0-r0
+Depends: enigma2, libsigc++-3-dev
+Recommends: aio-grab-dev, alsa-conf-dev, avahi-dev, curl-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma2 (= 5.9+git0+0-r0), enigma2-fonts-dev, ethtool-dev, font-valis-enigma-dev, freetype-dev, fribidi-dev, genisoimage-dev, giflib-dev, glib-2.0-dev, glibc-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libcrypto-dev, libcurl-dev, libdreamdvd-dev, libdvbsi++-dev, libgcc-dev, libgomp-dev, libgstpbutils-1.0-dev, libjpeg-turbo-dev, libmad-dev, libpng-dev, libpython3-dev, libsigc++-3-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libudfread-dev, libwebp-dev, libxcrypt-dev, libxml2-dev, libxmlccwrap-dev, mjpegtools-dev, oe-alliance-branding-dev, openssl-dev, python3-asyncio-dev, python3-codecs-dev, python3-core-dev, python3-crypt-dev, python3-dev, python3-email-dev, python3-fcntl-dev, python3-image-dev, python3-mime-dev, python3-mmap-dev, python3-netclient-dev, python3-netifaces-dev, python3-netserver-dev, python3-pickle-dev, python3-pillow-dev, python3-process-dev, python3-puremagic-dev, python3-pyusb-dev, python3-shell-dev, python3-six-dev, python3-threading-dev, python3-treq-dev, python3-twisted-core-dev, python3-twisted-dev, python3-twisted-web-dev, python3-wifi-dev, python3-xml-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, python3-zopeinterface-dev, replex-dev, streamlink-dev, tuxtxt-enigma2-dev, wireless-tools-dev, wpa-supplicant-dev
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 97e8ce2b815d84c80dd56faddc81d397
+SHA256sum: 8043adc8c6f09ad07367cc07cd9f0fbe9daf570027926c7155669a62bb9604c8
+Size: 184426
+Filename: enigma2-dev_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-display-skins-meta
+Version: git283+eca78320+eca78326ef-r1
+Section: base
+Architecture: geniuse3hd
+Maintainer: oe-aliance
+MD5Sum: c4418e67a5597ca50e14ffd42d44af94
+SHA256sum: 25a323b7d699a81740f340a7f09edd6b1f241d4083a695299e8d02f1edee5cbc
+Size: 1348
+Filename: enigma2-display-skins-meta_git283+eca78320+eca78326ef-r1_geniuse3hd.ipk
+Source: enigma2-display-skins.bb
+Description: Display Skins for Enigma2
+OE: enigma2-display-skins
+HomePage: https://gisclub.tv
+License: Proprietary
+Priority: optional
+
+Package: enigma2-display-skins
+Version: git283+eca78320+eca78326ef-r1
+Section: base
+Architecture: geniuse3hd
+Maintainer: oe-aliance
+MD5Sum: c0c98151552adab12c94bbdd2c2af43b
+SHA256sum: 902635001129cb9b0382b14addcc830ae539bc19599c970cb9370dfac1b1d95b
+Size: 522
+Filename: enigma2-display-skins_git283+eca78320+eca78326ef-r1_geniuse3hd.ipk
+Source: enigma2-display-skins.bb
+Description: Display Skins for Enigma2
+OE: enigma2-display-skins
+HomePage: https://gisclub.tv
+License: Proprietary
+Priority: optional
+
+Package: enigma2-fonts
+Version: 5.9+git0+0-r0
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: f31b6c6748622791b4664ffb13c9e640
+SHA256sum: 52427427c7ae99513593a5828e4bf3570672de1e265d672191c9a78db29058bd
+Size: 1336348
+Filename: enigma2-fonts_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-ar
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 268be928780fc23b9103e40346bb0dc8
+SHA256sum: d951ea999bce64faefa5093561837db9bc3b80a94057c848081c114cbf1f010e
+Size: 77356
+Filename: enigma2-locale-ar_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: ar
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-bg
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 270e5f4e2b0303f277c20959d5196685
+SHA256sum: fa9c250863bbff483af07985ec60d4e67b3391b33b76fba4166cd5b61f7c3910
+Size: 138638
+Filename: enigma2-locale-bg_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: bg
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-ca
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 4a85e89654c2e57cce47784448ecce2c
+SHA256sum: 735e8d5ce0d85f70c08c77f704c8d8cde4fedd6646972a5ae872f6e500a0d833
+Size: 122704
+Filename: enigma2-locale-ca_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: ca
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-cs
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 06abb3846d7a8f0128a152aaec724745
+SHA256sum: dcd10a24e405838b222d5c5a2aaa435a81704c3bd35f11af8e4180e7b6e1a70b
+Size: 130696
+Filename: enigma2-locale-cs_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: cs
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-da
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 2258885335624f3b896f895d7a125f46
+SHA256sum: 3ee25ca8a83b9273ff1296a39f41219cf43bcea13a1996295a4df4dafeb7000a
+Size: 76704
+Filename: enigma2-locale-da_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: da
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-de
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: e0cfac0647dd0a96213b7739a4be2196
+SHA256sum: 35856ac2a34e0817336b63228b18ee4de383edb6e0b35e56b8a49948dd408b3f
+Size: 121298
+Filename: enigma2-locale-de_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: de
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-el
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 500b520fe80c42770ed7a74a5e6ae59c
+SHA256sum: d9cee05a2fb5414097e9fc11c23d6299bcb8df0b7406be71f104a87e8f674f4a
+Size: 135774
+Filename: enigma2-locale-el_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: el
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-en
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 77c39a8b891dda8e7d384e3a709e3634
+SHA256sum: 256ea56614ed10b5921e3409b42157daf16aeab8ef20c3183dfe49a768a12568
+Size: 2960
+Filename: enigma2-locale-en_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: en
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-es
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 409b9b3168f7bb677fa6765084b071ef
+SHA256sum: 4609fb55e704bfd2cc2b2523635d94a8ec549ffaf77adac088820b49786d319d
+Size: 119172
+Filename: enigma2-locale-es_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: es
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-et
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: a871d94f47e81dbd429c01ade9a9ca8c
+SHA256sum: 972269dccdcf791a9e01b9c9c70cb615516bc49528b2844da6fb0f38aebecca0
+Size: 96894
+Filename: enigma2-locale-et_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: et
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-fa
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: d7d7d1f2d5a5bbb4bf8e4e180233c380
+SHA256sum: a9cae6da53dde9c3bcfa42a1c0cc852c48bfe9200795b7ffba69e61946bb5d7e
+Size: 31818
+Filename: enigma2-locale-fa_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: fa
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-fi
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 4a125cf471e0ff806ab00a22fbf1992e
+SHA256sum: 7d467200670c772d7766f0c5eadcc706092e51dfd4215155491725519342f238
+Size: 92590
+Filename: enigma2-locale-fi_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: fi
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-fr
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 068f918601f997607ac4e59991641a9a
+SHA256sum: 9e287dad4eb07dd4ae80cdee49c2c556628cd3ce0c87110dda7e2b32b8c9f722
+Size: 132812
+Filename: enigma2-locale-fr_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: fr
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-fy
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: b0da1dc089d948f3d46d19ca71358c5e
+SHA256sum: ba140a0e1dfb9021c6e23b7bddd0171f6c8cfa42f048c1169f6760204dab0e95
+Size: 21228
+Filename: enigma2-locale-fy_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: fy
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-gl
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 191d98d5d11d36ebbc019be61242e0f8
+SHA256sum: aa06bc158d5f007486ed8ddc3a96241c6e9d221a8e34def093c35972223ff3b0
+Size: 114168
+Filename: enigma2-locale-gl_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: gl
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-he
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: c5ab33a814412426d6ea73203c45c7e3
+SHA256sum: 44a71249b824ccf3af4ddfc09624c38bca3ae70ac0437e6e47023c6fe1f8e515
+Size: 22876
+Filename: enigma2-locale-he_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: he
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-hr
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 0835ee82110570c60261ee16d69ac699
+SHA256sum: 2f60a12b04d2b104a4c57e652481eb9b3f5e0796bd98ada2e88109abd6075c93
+Size: 118096
+Filename: enigma2-locale-hr_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: hr
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-hu
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 655f04ea301c9a778aeb9c189bb6dbc1
+SHA256sum: 0d37793b2c8e5f76ac8d3a253f57a4d56fbaa94fa81aeafd0db5ea8320bc7474
+Size: 117372
+Filename: enigma2-locale-hu_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: hu
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-id
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: f110878c7012dd448298dba4944ea2fb
+SHA256sum: 307a439e946494cadc65fef7b89cf869dfe1907aef1be647705ad95d6eab1845
+Size: 97616
+Filename: enigma2-locale-id_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: id
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-is
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 4e5c7e9aa87378856d79bcd12c04ac96
+SHA256sum: 5b245a8bf9c5375abf3d05bcc84f048c86282104f8ee2c419a8bec5836ea4321
+Size: 30042
+Filename: enigma2-locale-is_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: is
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-it
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 5c86ab78325b17ba246ccef01d29fd22
+SHA256sum: cdcc11cdb88aa7cb775a818b8aa0a12d2b329afe04a5a5fae482ec63e520053b
+Size: 113006
+Filename: enigma2-locale-it_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: it
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-ku
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 4d906ee1767964ff2095e02be44c6c6a
+SHA256sum: b02f431d319ade6b1b0697f4f0bd8985e3733fe988e5af71e39db2de4b8c0dab
+Size: 41648
+Filename: enigma2-locale-ku_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: ku
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-lt
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 19195ead86bf76ecf043a3da537f8709
+SHA256sum: 89fd9ba46e8fe83724bde85876495340f582cb1b2f2bdf159f5bf67f94bf3559
+Size: 121910
+Filename: enigma2-locale-lt_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: lt
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-lv
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 19b59087a327a2b010724ac126aba761
+SHA256sum: fd0f10727c5f68a540f4df9ef1666a2a05c09cbecf3d9541d3e86e73b8f41a1a
+Size: 127904
+Filename: enigma2-locale-lv_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: lv
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-mk
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 2c793f2f7123547df3f2b753b351d019
+SHA256sum: e1370d813f4992814f587760b94ee2566ad6f727840e3418e625be53e9ebcfb8
+Size: 126864
+Filename: enigma2-locale-mk_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: mk
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-nb
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 64481d8907ec96b5d6eeca7a37c12a63
+SHA256sum: df9a69e0bd79c7343e2915d28a0fe7303bf7fd8129c0d5c18ad4e1409faafc7f
+Size: 115228
+Filename: enigma2-locale-nb_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: nb
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-nl
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: f2ca82ae996c034cf79efdd6d72fe966
+SHA256sum: bb8476a1c29082453b46aa9a0e89ed4fb7c43c538052fd92e53b7d2fb2e8bb3d
+Size: 133428
+Filename: enigma2-locale-nl_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: nl
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-nn
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 007eeef1fde019c8ace751f9b316e4d1
+SHA256sum: 22dfe66927595bacc0bb94113e9880264f49a49afb19051bd4bfc0e680d6725b
+Size: 59160
+Filename: enigma2-locale-nn_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: nn
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-pl
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 80e1b005a2fa42a6d29ba68e72c2c7bc
+SHA256sum: 9b07800847abf10f44c9b4e2c11e266bdd93ab10441f69f3c231a35f5253e818
+Size: 116026
+Filename: enigma2-locale-pl_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: pl
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-pt-br
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: b5668cd13fe9084dcafb6256fa528bcf
+SHA256sum: d6a1679ab68c9db40321e128d35509c1e32ca86bcdb6992818472e4a9523d1ae
+Size: 58966
+Filename: enigma2-locale-pt-br_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: pt-br
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-pt
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: f574dc4b443632b4f157386cd7418404
+SHA256sum: 121c914b61bff98313da12edd8412ad10cede3093dddae156e409120faaa63fe
+Size: 54944
+Filename: enigma2-locale-pt_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: pt
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-ro
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: ea25e93cee708935017be4f14ac08488
+SHA256sum: e4bdd9b0aabe19b362bcca301efe70fba81cd62d99ac5054f22fd4e76cd76f74
+Size: 23040
+Filename: enigma2-locale-ro_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: ro
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-ru
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: d2927818326aec6ae8177e2a9ec306dd
+SHA256sum: baa1577b94e1745b095214ba22c347cc2d23b3e06a16d6653792d6f29fd979c7
+Size: 248798
+Filename: enigma2-locale-ru_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: ru
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-sk
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 0fede5462ac56964f3967c0a33905ca8
+SHA256sum: e327853ecc90e531924be81b27c6fe09a9f253aba49f1c65968b5d4aa684a7c6
+Size: 132534
+Filename: enigma2-locale-sk_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: sk
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-sl
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 86747635ac1bacda187e003fc519b0a6
+SHA256sum: 0b970fbd5d405e5ffe3544182f64525c22f6d688bc61c5f23e1ffd68582d82e2
+Size: 67378
+Filename: enigma2-locale-sl_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: sl
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-sr
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: dc35c06bf9438214fd1a68591cd4d561
+SHA256sum: 50607cbd3fc3321549dd2bf80683bdac804a9019f0981c0b7f2b07719ff7aaac
+Size: 30140
+Filename: enigma2-locale-sr_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: sr
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-sv
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 05d29cef8e1ad90f0bfb8ffa1b23bc27
+SHA256sum: 23c9bcd2bef758511b8450db80327a9d3b5a67fcc8069edb8cb2efa6d1153a72
+Size: 78428
+Filename: enigma2-locale-sv_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: sv
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-th
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 3d56970aebe4a6f83de8f4673bc386bf
+SHA256sum: f22be937e15032dc9b5fbad417218db51745c7dad97aa4adb1417e9d3ed51e88
+Size: 29334
+Filename: enigma2-locale-th_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: th
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-tr
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: f75db1c9246cc89400639d980b25bdb8
+SHA256sum: 793fd60e3c30a62ff4fb553e380106fbacf55169118534435e81475d3da5ee12
+Size: 75340
+Filename: enigma2-locale-tr_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: tr
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-uk
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 4785b3ad7ae416e85c3eb22e31a244e3
+SHA256sum: bd3d91a1233dcc5e1e95f48d86c5694ca4831534b92d048c3b16b0094faa38d4
+Size: 185240
+Filename: enigma2-locale-uk_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: uk
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-vi
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 0143085fd964e5979ecbecc62593d9cf
+SHA256sum: e19c17c05530b4d060b33711c1a7bd01cc300a585146a6d2a46d590e8ab921d4
+Size: 115458
+Filename: enigma2-locale-vi_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: vi
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-zh-cn
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 598f8d5fc5007116be99777b0e3c0133
+SHA256sum: b4767f32c6c9396540cbf01cb26a504af4b82d16e711a9d1e1c7e9de9c0fda5b
+Size: 124556
+Filename: enigma2-locale-zh-cn_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: zh-cn
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-zh-hk
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 9d1f14535b5e842db4f36a43e323ebd7
+SHA256sum: 85ab3e2db555c34455c34c6e86c8c58ad2d5d4e4eb7b5de7219daf02b06a61ab
+Size: 28106
+Filename: enigma2-locale-zh-hk_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: zh-hk
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-meta
+Version: 5.9+git0+0-r0
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 25f1ddcad4890470b0f5a1fd17494015
+SHA256sum: bbc0ba2997c03ffe26f2c8fcd8e17b52ca3766b7123b6dd58dab9bc986ff39b2
+Size: 4372
+Filename: enigma2-meta_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: deb4fbb83e4bf31436941cf39446e051
+SHA256sum: 0e0bbeeff9bb9b9cd6f136e041389cc24221d3bccf5c65bb05f404198db5fd07
+Size: 5852
+Filename: enigma2-plugin-extensions-cutlisteditor-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor
+Version: 5.9+git0+0-r0
+Depends: aio-grab, enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 856883e3ffe256ce3a0b23d42dd95db4
+SHA256sum: 2ad12acade9c29e5c6f5d0b3dda7ddb539c84870467f2404be3202df780d1704
+Size: 13090
+Filename: enigma2-plugin-extensions-cutlisteditor_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdburn-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 717224cb4ea15c2d2d78a69f4f8b6544
+SHA256sum: ca4e42ee282706d10d0c610a251f0aeabe88d186b78bc678fab5e218848cc797
+Size: 25884
+Filename: enigma2-plugin-extensions-dvdburn-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-dvdburn (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdburn
+Version: 5.9+git0+0-r0
+Depends: dvd+rw-tools, dvdauthor, enigma2, genisoimage, mjpegtools, replex
+Recommends: kernel-module-sg
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 5cd0668bb632cdea4d67c2dd91c1b1a7
+SHA256sum: bb474954d33e4a05e841a2aff9d485ff4569d76c2fd42f802f0154a538e7bc3d
+Size: 846678
+Filename: enigma2-plugin-extensions-dvdburn_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-dvdburn
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: d239f478ab1c1c737e08bd1bc009f396
+SHA256sum: 7e6b5c0c3d24c4c7b2f0cf7aafd50d2862794238420bd58261961d5493111e22
+Size: 1926
+Filename: enigma2-plugin-extensions-dvdplayer-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Recommends: kernel-module-cdrom, kernel-module-sr-mod
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 49cb1184f8bbd99cf1d397ebd5ddd16a
+SHA256sum: 64d76989c1d5d6f3217e1dc420a6b5ae856df0762c89d09ad77263abe03145fe
+Size: 3796
+Filename: enigma2-plugin-extensions-dvdplayer_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-filecommander-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: d7b1b630772811285c6548b6c0246f55
+SHA256sum: f29721f1cfe59669d735afde3913fa79fad1c2cb15d4ec5fd75ea8bc0f9a62e1
+Size: 30546
+Filename: enigma2-plugin-extensions-filecommander-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-filecommander (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-filecommander
+Version: 5.9+git0+0-r0
+Depends: enigma2, python3-puremagic
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 1acf3f52f7ab3b062ee81308ade79b61
+SHA256sum: fd23d36ad2867330f9f2b3b12fc63654f65f7ecac718c1421549a79cd6f5f838
+Size: 90432
+Filename: enigma2-plugin-extensions-filecommander_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-filecommander
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-graphmultiepg-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: b3ddfe543f1830476b5a1382c43af8a1
+SHA256sum: c74d9ff1059ce0e0e0f08fb02040c02410437cf6fda194efe6eb6a43c502e5b4
+Size: 17226
+Filename: enigma2-plugin-extensions-graphmultiepg-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-graphmultiepg (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-graphmultiepg
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: dd2fae4e90dbbcfc5900434cdb029ef9
+SHA256sum: d1bae36a97c608f39c83467578542be7d25e06f586bfbb43524d674c1b8d1d41
+Size: 46124
+Filename: enigma2-plugin-extensions-graphmultiepg_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-graphmultiepg
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: ae8999e97d60ce4cbaf3c698c15ec107
+SHA256sum: 8a2077fc810c34b1ee8bdf5d9bcffa06a6845a3aa4fd0f30932cd502d69f3e55
+Size: 12458
+Filename: enigma2-plugin-extensions-mediaplayer-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: d591f1e2bcb41c706d387dd66fc5be65
+SHA256sum: 9234ca7f4fe4e7627b4858c7034af9f37817143485cee8b240a7a49e585e2066
+Size: 38282
+Filename: enigma2-plugin-extensions-mediaplayer_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 11bf530ce90b2df2d772404d4d3e6212
+SHA256sum: f322104878357b7446f84cdba0b9a1793fd30ffe57b614eb7bc07296a687cfb1
+Size: 1752
+Filename: enigma2-plugin-extensions-mediascanner-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: b5c7d1450a9598913507760f2d88949d
+SHA256sum: e5bbe7498d74310fd59d80153688d8bcc7b2f875fdf2d051ede3816caba62f3b
+Size: 6174
+Filename: enigma2-plugin-extensions-mediascanner_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: ad6cc7271e929a38fef8efa2c567b863
+SHA256sum: 396ec6d0c5dc9aea885cf70c0a8bdf1a8658e2c1bc217002128d596170cb0f50
+Size: 6622
+Filename: enigma2-plugin-extensions-pictureplayer-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: f3d79d878f6bc5995983ea9abc30eee0
+SHA256sum: 272dc1ff400d583ae3b25320b2974168595349cb7d10eec7a3c66a3c128e9f7a
+Size: 21150
+Filename: enigma2-plugin-extensions-pictureplayer_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-dbg
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libcrypto-dbg, libcurl-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libgcc-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-turbo-dbg, libpng-dbg, libpython3-dbg, libsigc++-3-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libudfread-dbg, libwebp-dbg, libxcrypt-dbg, libxml2-dbg, tuxtxt-enigma2-dbg
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 9b8fc73f272a91762738cbec1de12302
+SHA256sum: 0c2dd78f6c8d52c54f8cea09f548ee0ea7ac535e3e274d3cd7cb86e9912891a9
+Size: 17616326
+Filename: enigma2-plugin-extensions-socketmmi-dbg_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (debug)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 1aff534e31a001e7fa2bd396a121b5ca
+SHA256sum: 2fe4a623155022cf6becbda90e7075636005ef0c0db2d8501d93c24e0a0da438
+Size: 1520
+Filename: enigma2-plugin-extensions-socketmmi-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-staticdev
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 5086ba34015ab2f0a5a31da4848cba0d
+SHA256sum: 416a8cc062f67eb9ff577355feeb5931fc1f8d93ec0c86cfe3235e5be1f9e78a
+Size: 135168
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (static development)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi
+Version: 5.9+git0+0-r0
+Depends: enigma2, libc6 (>= 2.41+git0+0c76c95162), libgcc1 (>= 15.1.0), libstdc++6 (>= 15.1.0), libudfread3 (>= 1.2.0+git123+c3cd5cb0+c3cd5cbb09), libxml2 (>= 2.14.3)
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: b80490f4c060abc48dbf172319d50ea9
+SHA256sum: edf439c561fff57f99c1a6464d06c5fba6816041f05118f823cec5b1fb609e61
+Size: 15840
+Filename: enigma2-plugin-extensions-socketmmi_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-streamlinkwrapper-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: b8673e91f6a9eb80d4efabed627f7391
+SHA256sum: 6e458c8260100914fb833e377d531984545eb05fa36342d8814105d7fef02697
+Size: 1288
+Filename: enigma2-plugin-extensions-streamlinkwrapper-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-streamlinkwrapper (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-streamlinkwrapper
+Version: 5.9+git0+0-r0
+Depends: enigma2, streamlink
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: d14ba99eddd7c10c326b369516b63398
+SHA256sum: 3e3a8c4a136d0d956630d54529e9dead3b91d44735ae5f99242f1f5883f533ea
+Size: 2174
+Filename: enigma2-plugin-extensions-streamlinkwrapper_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: Enables support for streamlink url scheme in bouquet list.
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-ytdlpwrapper-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 0ac8ea5a85f731c04550a47d67fa64ec
+SHA256sum: 6e01cf25fc850b3fe282b6bd759f081f39df8686010c9a7cf1b2b4666bcfdb8b
+Size: 1360
+Filename: enigma2-plugin-extensions-ytdlpwrapper-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-ytdlpwrapper (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-ytdlpwrapper
+Version: 5.9+git0+0-r0
+Depends: enigma2, python3-yt-dlp
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 6c84ca0c7ffa2f0e35c6c5485465c5af
+SHA256sum: 5f671b1d3721638d022b7f75cfcd559aba960e70ccc1a38e17899f19e04186ec
+Size: 2302
+Filename: enigma2-plugin-extensions-ytdlpwrapper_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: Enables support for YT-DLP url scheme in bouquet list.
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-ytdlwrapper-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 1fa65d6392ab1dbe9515ae1d4963a6b3
+SHA256sum: 0e87f5017310b4f03c2c935cf0f2da02ea8a897650e700298a7c64ff5563f2f6
+Size: 1336
+Filename: enigma2-plugin-extensions-ytdlwrapper-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: extensions-ytdlwrapper (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-ytdlwrapper
+Version: 5.9+git0+0-r0
+Depends: enigma2, python3-youtube-dl
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 5cfaec38ec7127fb06fac9275680d373
+SHA256sum: 5b58a836d3aecf50336c527aea2f1954bbd37a2ea9b5068b40162067732c7c5c
+Size: 2250
+Filename: enigma2-plugin-extensions-ytdlwrapper_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: Enables support for Youtube-DL url scheme in bouquet list.
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-font-wqy-microhei
+Version: 5.9+git0+0-r0
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: a73bafc41dfac6a18c5d69a3a88d2c2e
+SHA256sum: fa5b1d43e25ee0b9a2c6d693b4142a3d319a9469c21fa0882088e6e391fc4943
+Size: 2009676
+Filename: enigma2-plugin-font-wqy-microhei_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-animationsetup-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: c494f595a6b45a1b0f1e3fad4ce8df34
+SHA256sum: 6d7c89af1bb9bbd13ad1eb83db465d7c177315fa9d18e9d4e9674f5795677a3c
+Size: 3188
+Filename: enigma2-plugin-systemplugins-animationsetup-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-animationsetup (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-animationsetup
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 980a675cf23abc9e14871b44cbc1371c
+SHA256sum: 941dbd026b655c7b6c20624a1cf7bcdc74f4c9a804b1a04a78b8f2621124b8ba
+Size: 6948
+Filename: enigma2-plugin-systemplugins-animationsetup_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-animationsetup
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-cablescan-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 7bf43e15183a92b8d897dd51a9e32a03
+SHA256sum: 49ed777a58a401a0dbf88f20578b8f6b6d601c661bfeb3b06749d4a0ca2469a9
+Size: 3842
+Filename: enigma2-plugin-systemplugins-cablescan-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-cablescan
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 6caf44005c640a70f3f8c2cf6ffdd67d
+SHA256sum: d09d502b3d069324149dce1210ef3787db5c0b9dad53c851e3b5bc2f6e7db569
+Size: 9668
+Filename: enigma2-plugin-systemplugins-cablescan_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 15beaff6b146a557641920391b9cca5f
+SHA256sum: 1805b9dfe4e95dd812b9470fa03fd95a157f58eeaf03e6828a93953c244d74b8
+Size: 7014
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 7b30c9719c6ba5e757ac23e597416d0f
+SHA256sum: b6c01fbc07a47004e8d5070bea4f626370682d567d3513b68aa2509e296e2d3c
+Size: 17786
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-defaultservicesscanner-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 04dda1930c82615a5f6c10f9003f9a11
+SHA256sum: 8703bb5a86a84daed0a07b8426c71b6753d15984fb9ee769eb70bde2f5e802f3
+Size: 2650
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-defaultservicesscanner (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-defaultservicesscanner
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 3792cdc4c7b65fb7c8101324735a9110
+SHA256sum: 39ebefcb16f2fa0475025a1202e3dd18d0671d9768e61e09c3afee4dd2cdccf6
+Size: 4836
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-defaultservicesscanner
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: c961ed5943d6d1c75c25feff2263d83e
+SHA256sum: b68c11aecdae7d45cadd91778b8123a63964c6bcc6db7244094be28d88098833
+Size: 6822
+Filename: enigma2-plugin-systemplugins-diseqctester-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: b0fac2a285bdc90311a3ded6d617d8f0
+SHA256sum: b1a8b53f303ae2c534b8eaf7bad6e66da097dab3eea8b74a1efd03d31cb7813d
+Size: 16146
+Filename: enigma2-plugin-systemplugins-diseqctester_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastchannelchange-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 9bf2fa83c5d31bb0e4cd3493bdf98c02
+SHA256sum: cbbe956bf06e69c4abca4e3a48fa21530e3189e6d413d6a43f1d75f9c7315513
+Size: 5114
+Filename: enigma2-plugin-systemplugins-fastchannelchange-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-fastchannelchange (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastchannelchange
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 3af7425932045aa108f8f7431b8d9711
+SHA256sum: 53bb92450d991e5b9aa312565c66508d862c654e1f060413d0cebfe261d1843b
+Size: 13008
+Filename: enigma2-plugin-systemplugins-fastchannelchange_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-fastchannelchange
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 9e4ef4b13a324d233bc03861f010dc0f
+SHA256sum: 7abb86bcd7222f4157b9c179bdee41de6bcf8cc31eac78b149b795d7f3d2b235
+Size: 5232
+Filename: enigma2-plugin-systemplugins-fastscan-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 6f218051fc87e2021477ffb041d41498
+SHA256sum: db62a9f323786460053e455a523f0a354e6b2d49fd279767437f2bff5182be68
+Size: 13542
+Filename: enigma2-plugin-systemplugins-fastscan_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: b2eb019ef301dff08f35c5e8a99a2610
+SHA256sum: 0bd4bfe0f32ce3afca2653dc09540956273d2b132a80fe3e882994a7b074336f
+Size: 3998
+Filename: enigma2-plugin-systemplugins-hdmicec-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 3ab5e410487158e429079f93cdcc5160
+SHA256sum: 85051a072f1af8e67f9525bbe9a01283d846e0565ede814404a4ed3da97b6700
+Size: 8170
+Filename: enigma2-plugin-systemplugins-hdmicec_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: a3bef8605adea41578ae4ee52413c632
+SHA256sum: 87ceb8caf25c87ec18e9310373be2307587cf3ca6ad448fa6dbdebcad10b7c03
+Size: 4138
+Filename: enigma2-plugin-systemplugins-hotplug-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: af153f8e672ad5778cef24c7546063cd
+SHA256sum: dd5c5ec5dd572f9b4e148be590b2f716f21c76976d36ffa06a0c414c57465050
+Size: 9286
+Filename: enigma2-plugin-systemplugins-hotplug_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-lcnscanner-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 7b93c810e89607a7f0deab9fa09b0842
+SHA256sum: d33ad64fb74245d180fd54ba3fd04f3a8609dc53f81714008f3122152c927c44
+Size: 7068
+Filename: enigma2-plugin-systemplugins-lcnscanner-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-lcnscanner (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-lcnscanner
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: f72c6e03e543bf3b363700d8db93581a
+SHA256sum: 3602b335b8a340c111133b76db5c07bb12bb412fc60119e8b5b3b0b8c0f3d7b4
+Size: 22340
+Filename: enigma2-plugin-systemplugins-lcnscanner_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-lcnscanner
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 9fd070cf0862d5d16fb1387d63351704
+SHA256sum: f51976453b78eef04eb6a7d08140ce8a8be94fe3a02c3468ce711817362dc459
+Size: 4724
+Filename: enigma2-plugin-systemplugins-networkwizard-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: abc45919628d3569b3930c16d5e91c1f
+SHA256sum: 7cd25aa64918bd79a93c638d7b489ed910f0e2bf1f45a106fbd3eb142c57b072
+Size: 12422
+Filename: enigma2-plugin-systemplugins-networkwizard_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osd3dsetup-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: fab6cf0bbadb7373053b7b875d80675a
+SHA256sum: f2d40404f4ccc3ba1c4a8d11c0f697eabb62b75bbe85581b65c522d634c19a12
+Size: 2490
+Filename: enigma2-plugin-systemplugins-osd3dsetup-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-osd3dsetup (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osd3dsetup
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: f17ba35f188be510865e932a86d580a6
+SHA256sum: 4cd314476e13ae972ab945987c790342326ab3155060c774db94411bd8b512a4
+Size: 5598
+Filename: enigma2-plugin-systemplugins-osd3dsetup_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-osd3dsetup
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osdpositionsetup-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 5e5c827a2de958733b22bb18640ae398
+SHA256sum: a577ca8c977b68dbc6a1172e1c7f9c247c1cda1090039f08b4d4b180e1a3f9d2
+Size: 4548
+Filename: enigma2-plugin-systemplugins-osdpositionsetup-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-osdpositionsetup (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osdpositionsetup
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 25bf4bca219246d0d855239067261a1b
+SHA256sum: 8315834bf11bf6b244852ed2229447fa23a8db5d02436a247661d4ed667cf872
+Size: 9808
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-osdpositionsetup
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 38a3d3159d2a24b91f78936f2823929e
+SHA256sum: 275336d98ec75ccc8cd361814c2cba1cf00e65f9640680e3b20ff93265beeb11
+Size: 18000
+Filename: enigma2-plugin-systemplugins-positionersetup-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: bb3b75ad12b7fb436c1f966f82fb4ed1
+SHA256sum: 90ceb84e0cd8943189b7d78208d867fc22fd4f1f33de6f64f2e52996ef31fbb6
+Size: 47048
+Filename: enigma2-plugin-systemplugins-positionersetup_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 4962d8b55f255244890e3e2363394ee8
+SHA256sum: f303909ac64ccf769f815f1eed3623be8325a9d13d254a6dab39b8e74ad3b9e7
+Size: 2092
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: e846db72e6180b3671cd053026bea30d
+SHA256sum: c9c69cfd33c2e093412ff82c32fe8c3e96f1b9fcf7f2e78dd28ccbdc80db36ab
+Size: 3980
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 7d1d116309e45055d9310188f416781e
+SHA256sum: d2fd6b16ac5edf9c37adfa6f9c8504a527489de144066f8b0d344a231bca86c9
+Size: 6946
+Filename: enigma2-plugin-systemplugins-satfinder-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: e7d9f581c1308308bc7a0b86638c2743
+SHA256sum: 98fc1be9afbbedf43f5550d6676016d98c3d66e7a2d3d28f556f8f2319552f63
+Size: 17002
+Filename: enigma2-plugin-systemplugins-satfinder_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: ce929af0b2b6bc83c7fbb0b33e680c2f
+SHA256sum: c4cf14ff7d30845574c2cca551eba24c4f316563128adb6e7063216383996a47
+Size: 20220
+Filename: enigma2-plugin-systemplugins-softwaremanager-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager
+Version: 5.9+git0+0-r0
+Depends: enigma2, python3-twisted-web
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 146565154a9312bbed6471d481cac5dd
+SHA256sum: 38a01a1be6f87b7880b7e45b3b273fa3fb6ea58d4e9dd968b55e30af541aa2bb
+Size: 70670
+Filename: enigma2-plugin-systemplugins-softwaremanager_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 40eaa72a15d7f753b619b73a2aa0fe04
+SHA256sum: 2705b4f4f94b807ca683785f65d45f41c8e043a1bce2ef80f8b7942f35ae22d8
+Size: 2342
+Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: d0320f25217ad71fa555a5f00c2de5f8
+SHA256sum: f02ebec39d5143af8ace50a4698069642ff3e6bf90f7e1e95d345f5a7a8c0f2b
+Size: 5006
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 7d0751d3fce6db945fa28576a63d53db
+SHA256sum: 9e94dc88ccdd68cafdd73b13e24db4f97b62363c30c57b332520b89edca86701
+Size: 6020
+Filename: enigma2-plugin-systemplugins-videoenhancement-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 5dc2484dd15e799fbb9129b77e218dbe
+SHA256sum: 68a467dc1f236c7a898e993b773b374284f8aea2168db585a0f011362d9c8e4f
+Size: 15440
+Filename: enigma2-plugin-systemplugins-videoenhancement_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videomode-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 3277d574d2a0e57e597df716c26cd3d1
+SHA256sum: 8dc77a66347080f8546a103402c36e8f13786de9d0547ca949badcb5dc27b3dd
+Size: 10680
+Filename: enigma2-plugin-systemplugins-videomode-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-videomode (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videomode
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 91a7f88482b4331f65322919b815b55b
+SHA256sum: 5cfb367e3012153b4b998785442e858cb4bc85e299d7e75e975b0100499f2261
+Size: 34078
+Filename: enigma2-plugin-systemplugins-videomode_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-videomode
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: beeea365caccb60b8169a6fd8e473212
+SHA256sum: 338077b1ca3bb78252605be28f8c4c4465ee0c7c120eaf757cd828db9e42463d
+Size: 4986
+Filename: enigma2-plugin-systemplugins-videotune-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 14802eb8f95f82956885e8c8cfad8261
+SHA256sum: ee7f2dbc2d4f8351c46ab0a41cfb444e0a0a205896bc718a91f0bc666a4c52ef
+Size: 72202
+Filename: enigma2-plugin-systemplugins-videotune_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan-src
+Version: 5.9+git0+0-r0
+Depends: enigma2
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 43077450a58a15767f97352efc2a2e87
+SHA256sum: d819d97cf408adc2c0705bb0fbdecf71d7a5816398c523be9a3008a044f6259d
+Size: 8954
+Filename: enigma2-plugin-systemplugins-wirelesslan-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan (source files)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan
+Version: 5.9+git0+0-r0
+Depends: enigma2, python3-wifi, wireless-tools, wpa-supplicant
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 4bdaf8ceafa5e8ac3ff9332f56aa9b12
+SHA256sum: cfa37c2089ff2bc931fd5e188b8f3c63abdfc6009aca09791d352077f5875b39
+Size: 22132
+Filename: enigma2-plugin-systemplugins-wirelesslan_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-src
+Version: 5.9+git0+0-r0
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 3949e3aba732cf0bb74065e6385367e9
+SHA256sum: 1bb6599529a43bb7a84112919f56570a90617ad002a9050b76cb60f3d17af222
+Size: 875852
+Filename: enigma2-src_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Source files
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-staticdev
+Version: 5.9+git0+0-r0
+Depends: enigma2-dev (= 5.9+git0+0-r0)
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 04033ee13e9f7543d15d0d8e180d72bc
+SHA256sum: 343fa03e3bff1c4506a5f652625e360753b619ea639a60160f0cf8553ada9a9e
+Size: 7270
+Filename: enigma2-staticdev_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files (Static Libraries)
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2
+Version: 5.9+git0+0-r0
+Depends: alsa-conf, enigma2-fonts, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.26.2), libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.41+git0+0c76c95162), libcrypt2 (>= 4.4.38), libcrypto3 (>= 3.5.0), libcurl4 (>= 8.14.1), libdreamdvd0 (>= 1.1+git220+375e7910+375e791cd0), libdvbsi++1 (>= 0.3.9+git130+f3c40ea0+f3c40ea6da), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.1.0), libgif7 (>= 5.2.2), libglib-2.0-0 (>= 2.84.2), libgomp1 (>= 15.1.0), libgstpbutils-1.0-0 (>= 1.26.2), libjpeg62 (>= 3.1.1), libpng16-16 (>= 1.6.48), libpython3.13-1.0 (>= 3.13.5), libsigc-3.0-0 (>= 3.6.0), libssl3 (>= 3.5.0), libstdc++6 (>= 15.1.0), libtuxtxt0 (>= 2.0+git91+9319ad40+9319ad4058), libtuxtxt32bpp0 (>= 2.0+git91+9319ad40+9319ad4058), libudfread3 (>= 1.2.0+git123+c3cd5cb0+c3cd5cbb09), libwebp (>= 1.5.0), libxml2 (>= 2.14.3), oe-alliance-branding, python3-asyncio, python3-codecs, python3-core, python3-crypt, python3-email, python3-fcntl, python3-image, python3-mime, python3-mmap, python3-netclient, python3-netifaces, python3-netserver, python3-pickle, python3-pillow, python3-process, python3-pyusb, python3-shell, python3-six, python3-threading, python3-treq, python3-twisted-core, python3-twisted-web, python3-xml, python3-zopeinterface
+Recommends: glib-networking, glibc-gconv-utf-16, libdvdcss
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 526cb72a1124482f9533d73fb5e5455e
+SHA256sum: dd14de7e73f1476a87b861478394fe683cb4eefc67e42f67fc5b384900a3ab65
+Size: 5382402
+Filename: enigma2_5.9+git0+0-r0_geniuse3hd.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+HomePage: https://gisclub.tv
+License: GPL-2.0-only
+Priority: optional
+
+Package: odin-dvb-modules-e3hd-dbg
+Version: 3.18.24+20151211-r4
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: 3077d2b18cc5b63e3e7236bcb5f486ec
+SHA256sum: e3cfe6079915942e05f83a4bcfb49b041d91468ead44e5a4118f6fa7a3c658ef
+Size: 590
+Filename: odin-dvb-modules-e3hd-dbg_3.18.24+20151211-r4_geniuse3hd.ipk
+Source: odin-dvb-modules-e3hd.bb
+Description: Hardware drivers for e3hd - Debugging files
+OE: odin-dvb-modules-e3hd
+HomePage: https://gisclub.tv
+License: Proprietary
+Priority: required
+
+Package: odin-dvb-modules-e3hd-dev
+Version: 3.18.24+20151211-r4
+Recommends: odin-dvb-modules-e3hd (= 3.18.24+20151211-r4)
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: e0a2e381bc9df0f5bd7bd9593a8e7e59
+SHA256sum: 74e47c62baaa7e140c06d5523c7d4b8a43e965adb346edb239c17b4071d7e340
+Size: 626
+Filename: odin-dvb-modules-e3hd-dev_3.18.24+20151211-r4_geniuse3hd.ipk
+Source: odin-dvb-modules-e3hd.bb
+Description: Hardware drivers for e3hd - Development files
+OE: odin-dvb-modules-e3hd
+HomePage: https://gisclub.tv
+License: Proprietary
+Priority: required
+
+Package: odin-dvb-modules-e3hd
+Version: 3.18.24+20151211-r4
+Section: base
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: 5fd42abee5e848c53ed48bdf9d476b89
+SHA256sum: 91a17244168b1a4fa0a2b1ab5973ff617a888ce4bcd19b96d4e3d5d5eccdeef2
+Size: 4633966
+Filename: odin-dvb-modules-e3hd_3.18.24+20151211-r4_geniuse3hd.ipk
+Source: odin-dvb-modules-e3hd.bb
+Description: Hardware drivers for e3hd
+OE: odin-dvb-modules-e3hd
+HomePage: https://gisclub.tv
+License: Proprietary
+Priority: required
+
+Package: oe-alliance-base-dbg
+Version: 5.9-r4
+Recommends: 7zip-dbg, bash-dbg, cronie-dbg, dropbear-dbg, e2fsprogs-mke2fs-dbg, early-configure-dbg, elfutils-dbg, minilocale-dbg, modutils-loadscript-dbg, oe-alliance-botfeed-configs-dbg, oe-alliance-enigma2-dbg, oe-alliance-feeds-configs-dbg, opkg-dbg, packagegroup-base-dbg, packagegroup-core-boot-dbg, parted-dbg, procps-dbg, rc-local-dbg, util-linux-blkid-dbg, util-linux-flock-dbg, util-linux-sfdisk-dbg, volatile-media-dbg, wget-dbg, wireless-tools-dbg
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: d868b8adc9527f7c07cbe94faa434fbe
+SHA256sum: 1b49c64849b7c457b5c577caae9ed0b5dc039ff9f16c39b506f2ce484b4ec98d
+Size: 764
+Filename: oe-alliance-base-dbg_5.9-r4_geniuse3hd.ipk
+Source: oe-alliance-base.bb
+Description: Base packages require for image. - Debugging files
+OE: oe-alliance-base
+HomePage: https://gisclub.tv
+License: MIT
+Priority: optional
+
+Package: oe-alliance-base-dev
+Version: 5.9-r4
+Recommends: 7zip-dev, bash-dev, cronie-dev, dropbear-dev, e2fsprogs-mke2fs-dev, early-configure-dev, elfutils-dev, minilocale-dev, modutils-loadscript-dev, oe-alliance-base (= 5.9-r4), oe-alliance-botfeed-configs-dev, oe-alliance-enigma2-dev, oe-alliance-feeds-configs-dev, opkg-dev, packagegroup-base-dev, packagegroup-core-boot-dev, parted-dev, procps-dev, rc-local-dev, util-linux-blkid-dev, util-linux-flock-dev, util-linux-sfdisk-dev, volatile-media-dev, wget-dev, wireless-tools-dev
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: 238f056c822bd2d7532c3125ec44c54b
+SHA256sum: 7d4542efff1fb0f39de1398a70406ebd1f54801853f67edb7f0b65bb88a20494
+Size: 792
+Filename: oe-alliance-base-dev_5.9-r4_geniuse3hd.ipk
+Source: oe-alliance-base.bb
+Description: Base packages require for image. - Development files
+OE: oe-alliance-base
+HomePage: https://gisclub.tv
+License: MIT
+Priority: optional
+
+Package: oe-alliance-base
+Version: 5.9-r4
+Depends: 7zip, bash, cronie, dropbear, e2fsprogs-mke2fs, early-configure, elfutils, minilocale, modutils-loadscript, oe-alliance-botfeed-configs, oe-alliance-enigma2, oe-alliance-feeds-configs, opkg, packagegroup-base, packagegroup-core-boot, parted, procps, rc-local, util-linux-blkid, util-linux-flock, util-linux-sfdisk, volatile-media, wget, wireless-tools
+Recommends: kernel-module-exportfs, kernel-module-fat, kernel-module-msdos, kernel-module-nls-cp437, kernel-module-nls-iso8859-1, kernel-module-nls-iso8859-15, kernel-module-vfat, kernel-module-xfs
+Section: base
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: 1e53f9bf1f1cfa5e83e6e5305e3db52f
+SHA256sum: 2d8b78b41b39657a48e3a1c45dbefb91d8992cbb451ebb155cbdccc70a5fbf44
+Size: 746
+Filename: oe-alliance-base_5.9-r4_geniuse3hd.ipk
+Source: oe-alliance-base.bb
+Description: Base packages require for image.
+OE: oe-alliance-base
+HomePage: https://gisclub.tv
+License: MIT
+Priority: optional
+
+Package: oe-alliance-branding-dbg
+Version: 5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd
+Recommends: glibc-dbg
+Section: devel
+Architecture: geniuse3hd
+Maintainer: oe-alliance team
+MD5Sum: 5edf315a9d50dc586572fda4e77f98cb
+SHA256sum: 8229ca0624e5eb2598e2cbc4035e06148e3995f5fa9931c76969fc9c75ce1a6c
+Size: 94284
+Filename: oe-alliance-branding-dbg_5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd_geniuse3hd.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 5.9+git-r20250820-geniuse3hd - Debugging files
+OE: oe-alliance-branding
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-branding-dev
+Version: 5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd
+Recommends: glibc-dev, oe-alliance-branding (= 5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd), python3-dev
+Section: devel
+Architecture: geniuse3hd
+Maintainer: oe-alliance team
+MD5Sum: 1d483e8d89676ebfc18441063118d61c
+SHA256sum: efe4420fd387cab95ead417831819302196b63ac8e3aac929a59f51918304208
+Size: 666
+Filename: oe-alliance-branding-dev_5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd_geniuse3hd.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 5.9+git-r20250820-geniuse3hd - Development files
+OE: oe-alliance-branding
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-branding-src
+Version: 5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd
+Section: devel
+Architecture: geniuse3hd
+Maintainer: oe-alliance team
+MD5Sum: a79951945c2f75a0c0b0c1357ee01039
+SHA256sum: a972a2b04e78b464f37858e8108d0fec72501dbe3831cb2ed8f542dde8f7d439
+Size: 4388
+Filename: oe-alliance-branding-src_5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd_geniuse3hd.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 5.9+git-r20250820-geniuse3hd - Source files
+OE: oe-alliance-branding
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-branding
+Version: 5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd
+Depends: libc6 (>= 2.41+git0+0c76c95162)
+Section: base
+Architecture: geniuse3hd
+Maintainer: oe-alliance team
+MD5Sum: b44f4360f099e497847c18415381e0ce
+SHA256sum: 58ab4da6e4be758dac209695e5b54aff0080af3fcfc658d5383a26bd0d113d50
+Size: 136784
+Filename: oe-alliance-branding_5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd_geniuse3hd.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 5.9+git-r20250820-geniuse3hd
+OE: oe-alliance-branding
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-feeds-configs-dbg
+Version: 1.0-r4
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: b024a77b59b0ce7c531c4e7976f89f3e
+SHA256sum: edca591929275dcca4bebd07d5844704ccce41430fd37670bdb403ddca11d804
+Size: 602
+Filename: oe-alliance-feeds-configs-dbg_1.0-r4_geniuse3hd.ipk
+Source: oe-alliance-feeds-configs.bb
+Description: Configuration files for online package repositories aka feeds - Debugging files
+OE: oe-alliance-feeds-configs
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-feeds-configs-dev
+Version: 1.0-r4
+Recommends: oe-alliance-feeds-configs (= 1.0-r4)
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: c1e2189939f12eea9437f0391b6de37f
+SHA256sum: 1704724b4ae1436e1ebf7f802b9e46317af0faa72874002a23c7c205ebc76fa5
+Size: 636
+Filename: oe-alliance-feeds-configs-dev_1.0-r4_geniuse3hd.ipk
+Source: oe-alliance-feeds-configs.bb
+Description: Configuration files for online package repositories aka feeds - Development files
+OE: oe-alliance-feeds-configs
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-feeds-configs
+Version: 1.0-r4
+Replaces: distro-feed-configs
+Conflicts: distro-feed-configs
+Section: base
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: 4e581c339ee56ef9c67c12d66bae24fe
+SHA256sum: f18604fb849176cfeac726a25b45090f2406913364c55c14b662ec2cd7d66331
+Size: 1048
+Filename: oe-alliance-feeds-configs_1.0-r4_geniuse3hd.ipk
+Source: oe-alliance-feeds-configs.bb
+Description: Configuration files for online package repositories aka feeds
+OE: oe-alliance-feeds-configs
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-remote-dbg
+Version: 5.9+git133+9fc12550+9fc1255202-r3-geniuse3hd
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 8a31d6cdb7c010bca95e3a54cae3a128
+SHA256sum: 25d99d26b983bb1d2f11609e17c7f9ef7df8de1cafd53bc67182b2e66915999b
+Size: 626
+Filename: oe-alliance-remote-dbg_5.9+git133+9fc12550+9fc1255202-r3-geniuse3hd_geniuse3hd.ipk
+Source: oe-alliance-remote.bb
+Description: oe-alliance-remote version 5.9+git-r3-geniuse3hd - Debugging files
+OE: oe-alliance-remote
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-remote-dev
+Version: 5.9+git133+9fc12550+9fc1255202-r3-geniuse3hd
+Recommends: oe-alliance-remote (= 5.9+git133+9fc12550+9fc1255202-r3-geniuse3hd)
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 1fef866c5e3df377ea83bf245fca7a26
+SHA256sum: d687a3b5c64339d87029a4aba0f439b38babffeef744e9dee1a7211b3fe83d6a
+Size: 666
+Filename: oe-alliance-remote-dev_5.9+git133+9fc12550+9fc1255202-r3-geniuse3hd_geniuse3hd.ipk
+Source: oe-alliance-remote.bb
+Description: oe-alliance-remote version 5.9+git-r3-geniuse3hd - Development files
+OE: oe-alliance-remote
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-remote
+Version: 5.9+git133+9fc12550+9fc1255202-r3-geniuse3hd
+Section: base
+Architecture: geniuse3hd
+Maintainer: OE-Alliance
+MD5Sum: 70e3de73a8f533fc6e3fc93243b37bdd
+SHA256sum: 63764a63b97039833a12a91af7ed08ea0956e8f2ab097bd29bd9b070dbbcfc7a
+Size: 97958
+Filename: oe-alliance-remote_5.9+git133+9fc12550+9fc1255202-r3-geniuse3hd_geniuse3hd.ipk
+Source: oe-alliance-remote.bb
+Description: oe-alliance-remote version 5.9+git-r3-geniuse3hd
+OE: oe-alliance-remote
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: opkg-arch-config-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: abe7a7d8499663f6a6968d7307792fb6
+SHA256sum: a0baaa6be68c5f00bef90ad3c3ca97d4f884e530ef13870895ed406a7230671e
+Size: 590
+Filename: opkg-arch-config-dbg_1.0-r0_geniuse3hd.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Debugging files
+OE: opkg-arch-config
+HomePage: https://git.yoctoproject.org/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config-dev
+Version: 1.0-r0
+Recommends: opkg-arch-config (= 1.0-r0)
+Section: devel
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: b53ac1d8f5ad96a159f87305c93657d5
+SHA256sum: 22b4cf4acf01413b5b3c52af8c623bd67311f3fcf99fd9aa5abbff093b619d43
+Size: 624
+Filename: opkg-arch-config-dev_1.0-r0_geniuse3hd.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Development files
+OE: opkg-arch-config
+HomePage: https://git.yoctoproject.org/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config
+Version: 1.0-r0
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Section: base
+Architecture: geniuse3hd
+Maintainer: OpenFIX
+MD5Sum: efa2d7edc99a7a17199a8e1bb1517d45
+SHA256sum: 2f927945704480251bdcc7e42170a664b4ae6a3551c778d6e3bc8639f85c9151
+Size: 796
+Filename: opkg-arch-config_1.0-r0_geniuse3hd.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg
+OE: opkg-arch-config
+HomePage: https://git.yoctoproject.org/opkg/
+License: MIT
+Priority: optional
+
