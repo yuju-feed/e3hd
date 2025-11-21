@@ -52,9 +52,9 @@ Version: 3.0.14-r0.10
 Section: base
 Architecture: geniuse3hd
 Maintainer: OpenFIX
-MD5Sum: e1276a00c4b49d6dbcdd53f05bfbed4d
-SHA256sum: d5ad89b4805124f2a8b62bbe4011d0332315c454392e03da1fd5c0af28edf350
-Size: 3972
+MD5Sum: 04f013061c7d034eb8b8ab7c5152c7f0
+SHA256sum: b040236fd649ebef9dcc137582c07d7e92cf742de514c2f1f7ed3f7038afd0ea
+Size: 3982
 Filename: base-files_3.0.14-r0.10_geniuse3hd.ipk
 Source: base-files_3.0.14.bb
 Description: Miscellaneous files for the base system
@@ -64,16 +64,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma-info
-Version: 5.9-r20250820-geniuse3hd
+Version: 6.0-r20251119-geniuse3hd
 Replaces: enigma-kernel-module
 Conflicts: enigma-kernel-module
 Section: base
 Architecture: geniuse3hd
 Maintainer: oe-alliance team
-MD5Sum: 39a18ee06615c65a761837fb85bb6625
-SHA256sum: ed84fa69eba7852e019b0f9c9a65ed3f5918f37fe03a022aced85200a82eae1e
-Size: 1410
-Filename: enigma-info_5.9-r20250820-geniuse3hd_geniuse3hd.ipk
+MD5Sum: 53dc5c78053063dd1b01dccaba635534
+SHA256sum: a0ba46a5bb12ea4cde5ce4d9f82da62d650c0d9ac4ddf8b9bc98e506cfb4000b
+Size: 1406
+Filename: enigma-info_6.0-r20251119-geniuse3hd_geniuse3hd.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
 OE: enigma-info
@@ -147,15 +147,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-dbg
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libcrypto-dbg, libcurl-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libgcc-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-turbo-dbg, libpng-dbg, libpython3-dbg, libsigc++-3-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libudfread-dbg, libwebp-dbg, libxcrypt-dbg, libxml2-dbg, tuxtxt-enigma2-dbg
 Section: devel
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: c04e3407a66792f08cb9d9f8de172bf0
-SHA256sum: 7f580e941237c1104e458a9391a0e1a9a322f91fd7acbc5f4f9e7e679df50903
+MD5Sum: e23744a4768559ec8494c99677eb6555
+SHA256sum: fe0c869f2162a0d2519494c70b3caa0c4fa41d7f826693c785f6f47582c695e5
 Size: 34046
-Filename: enigma2-dbg_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-dbg_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Debugging files
 OE: enigma2
@@ -164,16 +164,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-dev
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2, libsigc++-3-dev
-Recommends: aio-grab-dev, alsa-conf-dev, avahi-dev, curl-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma2 (= 5.9+git0+0-r0), enigma2-fonts-dev, ethtool-dev, font-valis-enigma-dev, freetype-dev, fribidi-dev, genisoimage-dev, giflib-dev, glib-2.0-dev, glibc-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libcrypto-dev, libcurl-dev, libdreamdvd-dev, libdvbsi++-dev, libgcc-dev, libgomp-dev, libgstpbutils-1.0-dev, libjpeg-turbo-dev, libmad-dev, libpng-dev, libpython3-dev, libsigc++-3-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libudfread-dev, libwebp-dev, libxcrypt-dev, libxml2-dev, libxmlccwrap-dev, mjpegtools-dev, oe-alliance-branding-dev, openssl-dev, python3-asyncio-dev, python3-codecs-dev, python3-core-dev, python3-crypt-dev, python3-dev, python3-email-dev, python3-fcntl-dev, python3-image-dev, python3-mime-dev, python3-mmap-dev, python3-netclient-dev, python3-netifaces-dev, python3-netserver-dev, python3-pickle-dev, python3-pillow-dev, python3-process-dev, python3-puremagic-dev, python3-pyusb-dev, python3-shell-dev, python3-six-dev, python3-threading-dev, python3-treq-dev, python3-twisted-core-dev, python3-twisted-dev, python3-twisted-web-dev, python3-wifi-dev, python3-xml-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, python3-zopeinterface-dev, replex-dev, streamlink-dev, tuxtxt-enigma2-dev, wireless-tools-dev, wpa-supplicant-dev
+Recommends: aio-grab-dev, alsa-conf-dev, avahi-dev, curl-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma2 (= 6.0+git0+0-r0), enigma2-fonts-dev, ethtool-dev, font-valis-enigma-dev, freetype-dev, fribidi-dev, genisoimage-dev, giflib-dev, glib-2.0-dev, glibc-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libcrypto-dev, libcurl-dev, libdreamdvd-dev, libdvbsi++-dev, libgcc-dev, libgomp-dev, libgstpbutils-1.0-dev, libjpeg-turbo-dev, libmad-dev, libpng-dev, libpython3-dev, libsigc++-3-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libudfread-dev, libwebp-dev, libxcrypt-dev, libxml2-dev, libxmlccwrap-dev, mjpegtools-dev, oe-alliance-branding-dev, openssl-dev, python3-asyncio-dev, python3-codecs-dev, python3-core-dev, python3-crypt-dev, python3-dev, python3-email-dev, python3-fcntl-dev, python3-image-dev, python3-mime-dev, python3-mmap-dev, python3-netclient-dev, python3-netifaces-dev, python3-netserver-dev, python3-pickle-dev, python3-pillow-dev, python3-process-dev, python3-puremagic-dev, python3-pyusb-dev, python3-shell-dev, python3-six-dev, python3-threading-dev, python3-treq-dev, python3-twisted-core-dev, python3-twisted-dev, python3-twisted-web-dev, python3-wifi-dev, python3-xml-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, python3-zopeinterface-dev, replex-dev, streamlink-dev, tuxtxt-enigma2-dev, wireless-tools-dev, wpa-supplicant-dev
 Section: devel
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 97e8ce2b815d84c80dd56faddc81d397
-SHA256sum: 8043adc8c6f09ad07367cc07cd9f0fbe9daf570027926c7155669a62bb9604c8
+MD5Sum: 54d67899f723a607ea2c27e3f164356d
+SHA256sum: fba93806f139b382538d799470badb4e4c74e04a40f0a335243df9554eebcca4
 Size: 184426
-Filename: enigma2-dev_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-dev_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files
 OE: enigma2
@@ -214,14 +214,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-fonts
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: f31b6c6748622791b4664ffb13c9e640
-SHA256sum: 52427427c7ae99513593a5828e4bf3570672de1e265d672191c9a78db29058bd
+MD5Sum: 91e8416f313eee125bbbf45c653523f9
+SHA256sum: 5bd6cb9d247394e6405b42a69f4eda4c1c7bb077a1a563ffd4356e9d70fcd8b7
 Size: 1336348
-Filename: enigma2-fonts_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-fonts_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
 OE: enigma2
@@ -230,15 +230,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-ar
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 268be928780fc23b9103e40346bb0dc8
-SHA256sum: d951ea999bce64faefa5093561837db9bc3b80a94057c848081c114cbf1f010e
-Size: 77356
-Filename: enigma2-locale-ar_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: c6fa35976a3ed39ee600d0f303d2a994
+SHA256sum: 1b73444a5c8754cc6235a1ca39f0f8d949dde14b195944f0e991035c5d1747e0
+Size: 77354
+Filename: enigma2-locale-ar_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: ar
 OE: enigma2
@@ -247,15 +247,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-bg
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 270e5f4e2b0303f277c20959d5196685
-SHA256sum: fa9c250863bbff483af07985ec60d4e67b3391b33b76fba4166cd5b61f7c3910
+MD5Sum: fe2e01bcde1ed5314c511a31f2184744
+SHA256sum: acf14abcef88d2f864e1a97db6fdfadf23260f6a20de6f675ce99f2047e035e0
 Size: 138638
-Filename: enigma2-locale-bg_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-locale-bg_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: bg
 OE: enigma2
@@ -264,15 +264,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-ca
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 4a85e89654c2e57cce47784448ecce2c
-SHA256sum: 735e8d5ce0d85f70c08c77f704c8d8cde4fedd6646972a5ae872f6e500a0d833
-Size: 122704
-Filename: enigma2-locale-ca_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 3a5a83bd8d30bf94862f5d9af3d0db95
+SHA256sum: 60ddf86666f5cd56200de4193d5a06a9ab42eaf554723e994e624c2137adb70a
+Size: 122702
+Filename: enigma2-locale-ca_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: ca
 OE: enigma2
@@ -281,15 +281,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-cs
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 06abb3846d7a8f0128a152aaec724745
-SHA256sum: dcd10a24e405838b222d5c5a2aaa435a81704c3bd35f11af8e4180e7b6e1a70b
-Size: 130696
-Filename: enigma2-locale-cs_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: fb4ee8552c8ed97b927beff29054a2e6
+SHA256sum: 8c4c5eeb7907c18d151339c4fe9964d84ea421c3548e0a6d64a852ed5449e001
+Size: 130694
+Filename: enigma2-locale-cs_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: cs
 OE: enigma2
@@ -298,15 +298,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-da
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 2258885335624f3b896f895d7a125f46
-SHA256sum: 3ee25ca8a83b9273ff1296a39f41219cf43bcea13a1996295a4df4dafeb7000a
-Size: 76704
-Filename: enigma2-locale-da_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 141dd2f941214ef8283f92dc8bf91404
+SHA256sum: 863cce47576380f0006a55b2473f76e2385c6d99cdf9fdc2eded30e166b90e76
+Size: 76702
+Filename: enigma2-locale-da_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: da
 OE: enigma2
@@ -315,15 +315,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-de
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: e0cfac0647dd0a96213b7739a4be2196
-SHA256sum: 35856ac2a34e0817336b63228b18ee4de383edb6e0b35e56b8a49948dd408b3f
-Size: 121298
-Filename: enigma2-locale-de_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: c14abf86f337c92dbe988e0b8f500848
+SHA256sum: bbff28f201c7c97e21c48c7fe0df48c35c3348ee0af7ffc29352d33a16cee4ea
+Size: 121296
+Filename: enigma2-locale-de_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: de
 OE: enigma2
@@ -332,15 +332,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-el
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 500b520fe80c42770ed7a74a5e6ae59c
-SHA256sum: d9cee05a2fb5414097e9fc11c23d6299bcb8df0b7406be71f104a87e8f674f4a
-Size: 135774
-Filename: enigma2-locale-el_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 267f3c18506fdb5685063b5b7dc2c3f0
+SHA256sum: 1127a3974236540c21524b9251b4d59fd4b88ced01533e8716004b727532b22f
+Size: 135772
+Filename: enigma2-locale-el_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: el
 OE: enigma2
@@ -349,15 +349,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-en
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 77c39a8b891dda8e7d384e3a709e3634
-SHA256sum: 256ea56614ed10b5921e3409b42157daf16aeab8ef20c3183dfe49a768a12568
-Size: 2960
-Filename: enigma2-locale-en_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: ce1376aecdc96bf27b5a6233817f2e46
+SHA256sum: f05068fd6f3c364c3bdb1df5b32ac6f8a6617fc220c2fa08d5285448ed32c3de
+Size: 2958
+Filename: enigma2-locale-en_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: en
 OE: enigma2
@@ -366,15 +366,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-es
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 409b9b3168f7bb677fa6765084b071ef
-SHA256sum: 4609fb55e704bfd2cc2b2523635d94a8ec549ffaf77adac088820b49786d319d
-Size: 119172
-Filename: enigma2-locale-es_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: b8eb99dbac9fc63099d22c9b2649e68c
+SHA256sum: 5c96aaab3e8906c024cca89060fc90106a33c5a8a5cfb862cc39901964b2f877
+Size: 119170
+Filename: enigma2-locale-es_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: es
 OE: enigma2
@@ -383,15 +383,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-et
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: a871d94f47e81dbd429c01ade9a9ca8c
-SHA256sum: 972269dccdcf791a9e01b9c9c70cb615516bc49528b2844da6fb0f38aebecca0
-Size: 96894
-Filename: enigma2-locale-et_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 3798c3e21333bee6b9bd8d65bf33a472
+SHA256sum: 6488111ae7dfc6cb9468bb7525ee2f44779f8c6ce5da2c0df2069d1a2ab07097
+Size: 96892
+Filename: enigma2-locale-et_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: et
 OE: enigma2
@@ -400,15 +400,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-fa
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: d7d7d1f2d5a5bbb4bf8e4e180233c380
-SHA256sum: a9cae6da53dde9c3bcfa42a1c0cc852c48bfe9200795b7ffba69e61946bb5d7e
+MD5Sum: d75c5644253f4e3ec17bd21b14997546
+SHA256sum: cce5eb48edfea44618fd14013f1aa9801f920a026b705fa7bfa092aae508a5c6
 Size: 31818
-Filename: enigma2-locale-fa_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-locale-fa_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: fa
 OE: enigma2
@@ -417,15 +417,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-fi
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 4a125cf471e0ff806ab00a22fbf1992e
-SHA256sum: 7d467200670c772d7766f0c5eadcc706092e51dfd4215155491725519342f238
+MD5Sum: 0d008b5f23dbd3be4f39231221db7a31
+SHA256sum: 6b8d359e833b9b8a2a221c3f4678c790bb8d4934696ab0c8aa5baf3c09786b83
 Size: 92590
-Filename: enigma2-locale-fi_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-locale-fi_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: fi
 OE: enigma2
@@ -434,15 +434,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-fr
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 068f918601f997607ac4e59991641a9a
-SHA256sum: 9e287dad4eb07dd4ae80cdee49c2c556628cd3ce0c87110dda7e2b32b8c9f722
+MD5Sum: 227b0f50b0f5be3d17d928c5a0277b97
+SHA256sum: 6f01ffff945d9e11db98c68f26252e8e59d7541382cf3e9ea3eaaff0e8fc61f4
 Size: 132812
-Filename: enigma2-locale-fr_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-locale-fr_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: fr
 OE: enigma2
@@ -451,15 +451,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-fy
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: b0da1dc089d948f3d46d19ca71358c5e
-SHA256sum: ba140a0e1dfb9021c6e23b7bddd0171f6c8cfa42f048c1169f6760204dab0e95
+MD5Sum: fd0099d72281a05232db1b0d52ca0f3f
+SHA256sum: 26a6c7792e69ee215ca9d1cf6500cfbc80c54b85adae25f9b7ec5f6a429397f3
 Size: 21228
-Filename: enigma2-locale-fy_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-locale-fy_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: fy
 OE: enigma2
@@ -468,15 +468,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-gl
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 191d98d5d11d36ebbc019be61242e0f8
-SHA256sum: aa06bc158d5f007486ed8ddc3a96241c6e9d221a8e34def093c35972223ff3b0
-Size: 114168
-Filename: enigma2-locale-gl_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 398bf4f36bfc4429e187201ad648e825
+SHA256sum: 63d27360960b85736fb6b0b4d3691440fce1795fdd782665ab3bfe797f9cf142
+Size: 114166
+Filename: enigma2-locale-gl_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: gl
 OE: enigma2
@@ -485,15 +485,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-he
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: c5ab33a814412426d6ea73203c45c7e3
-SHA256sum: 44a71249b824ccf3af4ddfc09624c38bca3ae70ac0437e6e47023c6fe1f8e515
-Size: 22876
-Filename: enigma2-locale-he_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: dd479533a54b1cd1bc83147da232c02a
+SHA256sum: 6110186e951f8eae45c0504eef358617d3578b6d487e23e4ae1cef03f629c5c2
+Size: 22874
+Filename: enigma2-locale-he_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: he
 OE: enigma2
@@ -502,15 +502,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-hr
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 0835ee82110570c60261ee16d69ac699
-SHA256sum: 2f60a12b04d2b104a4c57e652481eb9b3f5e0796bd98ada2e88109abd6075c93
-Size: 118096
-Filename: enigma2-locale-hr_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: d48b79daf10e2ded48fbb445cfb5b764
+SHA256sum: 264feb968bb9e1a21528768503d30f5b42dd7a65ea89a9134909e43816716de4
+Size: 118094
+Filename: enigma2-locale-hr_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: hr
 OE: enigma2
@@ -519,15 +519,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-hu
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 655f04ea301c9a778aeb9c189bb6dbc1
-SHA256sum: 0d37793b2c8e5f76ac8d3a253f57a4d56fbaa94fa81aeafd0db5ea8320bc7474
-Size: 117372
-Filename: enigma2-locale-hu_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 67908458299caaf2969a9c6f5de60528
+SHA256sum: c56be8a7110745df1a972003a11929a1627f0db556a274e069cb81e8b15461a6
+Size: 117370
+Filename: enigma2-locale-hu_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: hu
 OE: enigma2
@@ -536,15 +536,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-id
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: f110878c7012dd448298dba4944ea2fb
-SHA256sum: 307a439e946494cadc65fef7b89cf869dfe1907aef1be647705ad95d6eab1845
-Size: 97616
-Filename: enigma2-locale-id_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 273a2d7a5ade1c5c630362ba51e3d8ee
+SHA256sum: 4e430e1b532efaeb35d69e391c42ecea993d11062d60534f072b1da73392c603
+Size: 97614
+Filename: enigma2-locale-id_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: id
 OE: enigma2
@@ -553,15 +553,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-is
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 4e5c7e9aa87378856d79bcd12c04ac96
-SHA256sum: 5b245a8bf9c5375abf3d05bcc84f048c86282104f8ee2c419a8bec5836ea4321
-Size: 30042
-Filename: enigma2-locale-is_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 2aacd50338453070ba03084a2e23c70e
+SHA256sum: 5c6e406a936eca2b4b627ed1043f89be06d0b49ab250ae1cbdf23e636ab13837
+Size: 30040
+Filename: enigma2-locale-is_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: is
 OE: enigma2
@@ -570,15 +570,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-it
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 5c86ab78325b17ba246ccef01d29fd22
-SHA256sum: cdcc11cdb88aa7cb775a818b8aa0a12d2b329afe04a5a5fae482ec63e520053b
-Size: 113006
-Filename: enigma2-locale-it_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 9c502fd1ebd6ffd9e322e5b729aa7450
+SHA256sum: a590d77fc21f61d8c22b0e300a09a9e5336942c7aada4220e8c3f54e907250e5
+Size: 113004
+Filename: enigma2-locale-it_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: it
 OE: enigma2
@@ -587,15 +587,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-ku
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 4d906ee1767964ff2095e02be44c6c6a
-SHA256sum: b02f431d319ade6b1b0697f4f0bd8985e3733fe988e5af71e39db2de4b8c0dab
-Size: 41648
-Filename: enigma2-locale-ku_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 6ca8fb0b6cd2707b44095b6fdf3c7eff
+SHA256sum: 29622bbf121afbd70cd73ee5e0dda4b07e0ef2a48ac553f50ce61fcb16e66530
+Size: 41646
+Filename: enigma2-locale-ku_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: ku
 OE: enigma2
@@ -604,15 +604,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-lt
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 19195ead86bf76ecf043a3da537f8709
-SHA256sum: 89fd9ba46e8fe83724bde85876495340f582cb1b2f2bdf159f5bf67f94bf3559
-Size: 121910
-Filename: enigma2-locale-lt_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 8a14eb06cd24c473d32b8188039b2a2f
+SHA256sum: b0cc1c52c01fdbf55be337d8f80c350f78f81a5161de268620e127e3b97f01e8
+Size: 121908
+Filename: enigma2-locale-lt_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: lt
 OE: enigma2
@@ -621,15 +621,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-lv
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 19b59087a327a2b010724ac126aba761
-SHA256sum: fd0f10727c5f68a540f4df9ef1666a2a05c09cbecf3d9541d3e86e73b8f41a1a
-Size: 127904
-Filename: enigma2-locale-lv_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 4d9f17c09265d3cdee0b61e5f5df366e
+SHA256sum: 190dac354b8bbac13e69cc11d8827041291377d4e183f54acc94c2148f29995c
+Size: 127902
+Filename: enigma2-locale-lv_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: lv
 OE: enigma2
@@ -638,15 +638,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-mk
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 2c793f2f7123547df3f2b753b351d019
-SHA256sum: e1370d813f4992814f587760b94ee2566ad6f727840e3418e625be53e9ebcfb8
-Size: 126864
-Filename: enigma2-locale-mk_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: cfa235a952ae08eb6ea79bb3ccd2b0d7
+SHA256sum: 1fc37a3746a932dd4d2eb9e2cff7ead9ab2f7b525c6d2624658804b29af87bd3
+Size: 126862
+Filename: enigma2-locale-mk_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: mk
 OE: enigma2
@@ -655,15 +655,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-nb
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 64481d8907ec96b5d6eeca7a37c12a63
-SHA256sum: df9a69e0bd79c7343e2915d28a0fe7303bf7fd8129c0d5c18ad4e1409faafc7f
-Size: 115228
-Filename: enigma2-locale-nb_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: cf2695aee4add1e09d954ae45564965d
+SHA256sum: e4bd9532eefe1b17628479c6710201da13b9fbb565dca63436e67da8f3ed9db4
+Size: 115226
+Filename: enigma2-locale-nb_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: nb
 OE: enigma2
@@ -672,15 +672,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-nl
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: f2ca82ae996c034cf79efdd6d72fe966
-SHA256sum: bb8476a1c29082453b46aa9a0e89ed4fb7c43c538052fd92e53b7d2fb2e8bb3d
-Size: 133428
-Filename: enigma2-locale-nl_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 5a6a6f581c8f4f487719adcff4345a3b
+SHA256sum: 5bc700b5404d22a40455b2e6b748aa528d2678a89e5f446eec9f4423047c3686
+Size: 133426
+Filename: enigma2-locale-nl_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: nl
 OE: enigma2
@@ -689,15 +689,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-nn
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 007eeef1fde019c8ace751f9b316e4d1
-SHA256sum: 22dfe66927595bacc0bb94113e9880264f49a49afb19051bd4bfc0e680d6725b
-Size: 59160
-Filename: enigma2-locale-nn_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 988b0af4e2198bdf41378154ad9a6227
+SHA256sum: e40b3824000b979de8c8d4fce55e336b36f5dbdf74f61447cf9f1e04cf85d537
+Size: 59158
+Filename: enigma2-locale-nn_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: nn
 OE: enigma2
@@ -706,15 +706,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-pl
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 80e1b005a2fa42a6d29ba68e72c2c7bc
-SHA256sum: 9b07800847abf10f44c9b4e2c11e266bdd93ab10441f69f3c231a35f5253e818
-Size: 116026
-Filename: enigma2-locale-pl_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 5418e87cf6d0dc39d5c97b7a7340ac54
+SHA256sum: ea9e84043129e05f8bf74f9ae2881c911e950d7107f22e1f6c96979ff97fe00f
+Size: 116024
+Filename: enigma2-locale-pl_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: pl
 OE: enigma2
@@ -723,15 +723,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-pt-br
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: b5668cd13fe9084dcafb6256fa528bcf
-SHA256sum: d6a1679ab68c9db40321e128d35509c1e32ca86bcdb6992818472e4a9523d1ae
-Size: 58966
-Filename: enigma2-locale-pt-br_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 7fa25c4a97b5a268f80fa18612569de3
+SHA256sum: 4ba028c0e1241e92a94b4f67b2cbfd985f8ba3d725ef933bfc770a5bc7f33ccf
+Size: 58964
+Filename: enigma2-locale-pt-br_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: pt-br
 OE: enigma2
@@ -740,15 +740,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-pt
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: f574dc4b443632b4f157386cd7418404
-SHA256sum: 121c914b61bff98313da12edd8412ad10cede3093dddae156e409120faaa63fe
-Size: 54944
-Filename: enigma2-locale-pt_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: e51da507be5da27e93305173e65e2718
+SHA256sum: d373bdbca7a77aca9b912410a727f3413cbb0c77e9a5846b02d064016899ca9c
+Size: 54942
+Filename: enigma2-locale-pt_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: pt
 OE: enigma2
@@ -757,15 +757,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-ro
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: ea25e93cee708935017be4f14ac08488
-SHA256sum: e4bdd9b0aabe19b362bcca301efe70fba81cd62d99ac5054f22fd4e76cd76f74
-Size: 23040
-Filename: enigma2-locale-ro_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 2b96b15579e4548142d000e596977df6
+SHA256sum: 78d42c5e606b81a1cb27eb03f8f7295ef82e0226907bd7ba42b0dfc9656dc46c
+Size: 23038
+Filename: enigma2-locale-ro_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: ro
 OE: enigma2
@@ -774,15 +774,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-ru
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: d2927818326aec6ae8177e2a9ec306dd
-SHA256sum: baa1577b94e1745b095214ba22c347cc2d23b3e06a16d6653792d6f29fd979c7
-Size: 248798
-Filename: enigma2-locale-ru_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 3a61c20e8bd6161b31fa7a02e2a70332
+SHA256sum: 9297a09b330f28b024eca8fe9e76df9d03dd9cf96daecc22f0b6347f80519dca
+Size: 248786
+Filename: enigma2-locale-ru_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: ru
 OE: enigma2
@@ -791,15 +791,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-sk
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 0fede5462ac56964f3967c0a33905ca8
-SHA256sum: e327853ecc90e531924be81b27c6fe09a9f253aba49f1c65968b5d4aa684a7c6
-Size: 132534
-Filename: enigma2-locale-sk_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 13adebe09f5d169e0b6a6fdd9fd4a286
+SHA256sum: 0d40a276a3af67d871031c7bd6d560a2f384dadbe8731d3038a0bf7c7d64ee9a
+Size: 132532
+Filename: enigma2-locale-sk_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: sk
 OE: enigma2
@@ -808,15 +808,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-sl
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 86747635ac1bacda187e003fc519b0a6
-SHA256sum: 0b970fbd5d405e5ffe3544182f64525c22f6d688bc61c5f23e1ffd68582d82e2
-Size: 67378
-Filename: enigma2-locale-sl_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: e8cba7fa2c48dce25e22bea3cf3b382e
+SHA256sum: bfdfbff7b4f67f5e5edc2100e89611d3e00808373f7704c06c4338b58bd2b9af
+Size: 67376
+Filename: enigma2-locale-sl_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: sl
 OE: enigma2
@@ -825,15 +825,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-sr
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: dc35c06bf9438214fd1a68591cd4d561
-SHA256sum: 50607cbd3fc3321549dd2bf80683bdac804a9019f0981c0b7f2b07719ff7aaac
-Size: 30140
-Filename: enigma2-locale-sr_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: aad15eeecfc7087d754e12c3ea512df3
+SHA256sum: 620da5496a9fa8404cbd663dd8f15157c864f60f4c697b69f413fedc7b964537
+Size: 30138
+Filename: enigma2-locale-sr_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: sr
 OE: enigma2
@@ -842,15 +842,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-sv
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 05d29cef8e1ad90f0bfb8ffa1b23bc27
-SHA256sum: 23c9bcd2bef758511b8450db80327a9d3b5a67fcc8069edb8cb2efa6d1153a72
-Size: 78428
-Filename: enigma2-locale-sv_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 985c3edadefdc09d21fa8ff9f707ee03
+SHA256sum: afe5fe4e3bd58575801492cfc050248741a9bfeb6bc44a9e9a8ea2e6f1b74735
+Size: 78426
+Filename: enigma2-locale-sv_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: sv
 OE: enigma2
@@ -859,15 +859,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-th
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 3d56970aebe4a6f83de8f4673bc386bf
-SHA256sum: f22be937e15032dc9b5fbad417218db51745c7dad97aa4adb1417e9d3ed51e88
-Size: 29334
-Filename: enigma2-locale-th_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 36d6673dda0e1b57891ee4b3199a3159
+SHA256sum: 44bf6ba0eae545e8d15d939a0f43d8abb9da3b3e21733b5875422131bc9d5f1e
+Size: 29332
+Filename: enigma2-locale-th_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: th
 OE: enigma2
@@ -876,15 +876,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-tr
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: f75db1c9246cc89400639d980b25bdb8
-SHA256sum: 793fd60e3c30a62ff4fb553e380106fbacf55169118534435e81475d3da5ee12
-Size: 75340
-Filename: enigma2-locale-tr_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 5c2e57ae6b24f3ef4d8b8a66e1a4c7e5
+SHA256sum: 76a849a2ea46286f68a2121650474cc688731082ef7ca6970a0e82d9dfad6a97
+Size: 75338
+Filename: enigma2-locale-tr_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: tr
 OE: enigma2
@@ -893,15 +893,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-uk
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 4785b3ad7ae416e85c3eb22e31a244e3
-SHA256sum: bd3d91a1233dcc5e1e95f48d86c5694ca4831534b92d048c3b16b0094faa38d4
-Size: 185240
-Filename: enigma2-locale-uk_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 12ea971007dcc0c57b5d1fd689f5cee0
+SHA256sum: a4392d144abdc9bfdf96c22f39abf827a4f67c9539568ba352b28cd7381f0cde
+Size: 185238
+Filename: enigma2-locale-uk_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: uk
 OE: enigma2
@@ -910,15 +910,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-vi
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 0143085fd964e5979ecbecc62593d9cf
-SHA256sum: e19c17c05530b4d060b33711c1a7bd01cc300a585146a6d2a46d590e8ab921d4
-Size: 115458
-Filename: enigma2-locale-vi_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 1b145b4363daed5189096ce084a1ebe4
+SHA256sum: 4c68bc73e318b742478351b85294b741b56c6b1fef47d3eb117f4167710bd738
+Size: 115456
+Filename: enigma2-locale-vi_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: vi
 OE: enigma2
@@ -927,15 +927,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-zh-cn
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 598f8d5fc5007116be99777b0e3c0133
-SHA256sum: b4767f32c6c9396540cbf01cb26a504af4b82d16e711a9d1e1c7e9de9c0fda5b
+MD5Sum: 44d58729f2f0b335e804f9cff77ceebb
+SHA256sum: ce621f11c3396a4b6d3bd16ec4e3cf9c43876455f7c8c97f8b6e39f477334c7b
 Size: 124556
-Filename: enigma2-locale-zh-cn_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-locale-zh-cn_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: zh-cn
 OE: enigma2
@@ -944,15 +944,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-zh-hk
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 9d1f14535b5e842db4f36a43e323ebd7
-SHA256sum: 85ab3e2db555c34455c34c6e86c8c58ad2d5d4e4eb7b5de7219daf02b06a61ab
+MD5Sum: 911e4c887fe11f7f09e005ef0b798f77
+SHA256sum: ebbd8ea6b98c6454ef0adfcc545ec08a87c91654dece8a5a2fe3df75829d6fa0
 Size: 28106
-Filename: enigma2-locale-zh-hk_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-locale-zh-hk_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: zh-hk
 OE: enigma2
@@ -961,14 +961,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-meta
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 25f1ddcad4890470b0f5a1fd17494015
-SHA256sum: bbc0ba2997c03ffe26f2c8fcd8e17b52ca3766b7123b6dd58dab9bc986ff39b2
+MD5Sum: 4e007e994da4ce3a727bd81e092962c4
+SHA256sum: 47309ec46cb404529da937a1e32506ef5bf443f0f3d73e27b1e835938d42f23f
 Size: 4372
-Filename: enigma2-meta_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-meta_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
 OE: enigma2
@@ -977,15 +977,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: deb4fbb83e4bf31436941cf39446e051
-SHA256sum: 0e0bbeeff9bb9b9cd6f136e041389cc24221d3bccf5c65bb05f404198db5fd07
+MD5Sum: fc1c61f7c0a68d8efe4a42079379206b
+SHA256sum: 4a8c9c7e680fb7e77fa534d61337127247bc43eb897edc394fd72b5bb2b35453
 Size: 5852
-Filename: enigma2-plugin-extensions-cutlisteditor-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-extensions-cutlisteditor-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor (source files)
 OE: enigma2
@@ -994,15 +994,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: aio-grab, enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 856883e3ffe256ce3a0b23d42dd95db4
-SHA256sum: 2ad12acade9c29e5c6f5d0b3dda7ddb539c84870467f2404be3202df780d1704
+MD5Sum: 05eb7232a517b06c7a1808d56bffe7f4
+SHA256sum: eff521261b53d3256cc5e965dea9602824711802ae1af9d4f7372b6e8893087e
 Size: 13090
-Filename: enigma2-plugin-extensions-cutlisteditor_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-extensions-cutlisteditor_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor
 OE: enigma2
@@ -1011,15 +1011,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 717224cb4ea15c2d2d78a69f4f8b6544
-SHA256sum: ca4e42ee282706d10d0c610a251f0aeabe88d186b78bc678fab5e218848cc797
+MD5Sum: 19d576ae2e8b818ee174892fed305221
+SHA256sum: c7f83562e3589541513c47d9f355cda59b53fc3e0738a3885e6266ff3323d37c
 Size: 25884
-Filename: enigma2-plugin-extensions-dvdburn-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-extensions-dvdburn-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn (source files)
 OE: enigma2
@@ -1028,16 +1028,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: dvd+rw-tools, dvdauthor, enigma2, genisoimage, mjpegtools, replex
 Recommends: kernel-module-sg
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 5cd0668bb632cdea4d67c2dd91c1b1a7
-SHA256sum: bb474954d33e4a05e841a2aff9d485ff4569d76c2fd42f802f0154a538e7bc3d
-Size: 846678
-Filename: enigma2-plugin-extensions-dvdburn_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 346d7050f34672a2dff0b4d9d8a111e9
+SHA256sum: aab69c661634c42141466796c318da08f6f1eed1e60696bb91142ad50f5fe5a1
+Size: 846676
+Filename: enigma2-plugin-extensions-dvdburn_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn
 OE: enigma2
@@ -1046,15 +1046,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: d239f478ab1c1c737e08bd1bc009f396
-SHA256sum: 7e6b5c0c3d24c4c7b2f0cf7aafd50d2862794238420bd58261961d5493111e22
+MD5Sum: d30b6a1ac89618f017c39d8e4180227d
+SHA256sum: c4dffe6166d87b85d01020b493f82a78897d1d664084175fe841821997cdcf46
 Size: 1926
-Filename: enigma2-plugin-extensions-dvdplayer-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-extensions-dvdplayer-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer (source files)
 OE: enigma2
@@ -1063,16 +1063,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Recommends: kernel-module-cdrom, kernel-module-sr-mod
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 49cb1184f8bbd99cf1d397ebd5ddd16a
-SHA256sum: 64d76989c1d5d6f3217e1dc420a6b5ae856df0762c89d09ad77263abe03145fe
-Size: 3796
-Filename: enigma2-plugin-extensions-dvdplayer_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: ae58dcc7e1b2872db604bf1a703bbe2c
+SHA256sum: 274b765b658eed85af7b6b8fb0c5546dca38b6ca740dcd494cc73770340cb0e6
+Size: 3794
+Filename: enigma2-plugin-extensions-dvdplayer_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer
 OE: enigma2
@@ -1081,15 +1081,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-filecommander-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: d7b1b630772811285c6548b6c0246f55
-SHA256sum: f29721f1cfe59669d735afde3913fa79fad1c2cb15d4ec5fd75ea8bc0f9a62e1
-Size: 30546
-Filename: enigma2-plugin-extensions-filecommander-src_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: f4264a99e65ba3f58b9329cb40dad385
+SHA256sum: 3f5136c88b57f3d57c8d3f352cf2db49914fe99dcda6f4627e3726699ea97c5e
+Size: 30618
+Filename: enigma2-plugin-extensions-filecommander-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-filecommander (source files)
 OE: enigma2
@@ -1098,15 +1098,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-filecommander
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2, python3-puremagic
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 1acf3f52f7ab3b062ee81308ade79b61
-SHA256sum: fd23d36ad2867330f9f2b3b12fc63654f65f7ecac718c1421549a79cd6f5f838
-Size: 90432
-Filename: enigma2-plugin-extensions-filecommander_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 79dff497a8665b3e30c90e18f399cbf1
+SHA256sum: 4b99b4b9b5bc52170d03f8021cb3c511f662b22af87c03fcfb0839e7786ca6b6
+Size: 90508
+Filename: enigma2-plugin-extensions-filecommander_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-filecommander
 OE: enigma2
@@ -1115,15 +1115,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-graphmultiepg-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: b3ddfe543f1830476b5a1382c43af8a1
-SHA256sum: c74d9ff1059ce0e0e0f08fb02040c02410437cf6fda194efe6eb6a43c502e5b4
+MD5Sum: 865006127ccca8ea149e4797c5979a47
+SHA256sum: 894a8f9484d4bc38298a9a6b9ae2b55b307aee57bec9182a87cf1b8a8a9b7d61
 Size: 17226
-Filename: enigma2-plugin-extensions-graphmultiepg-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-extensions-graphmultiepg-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg (source files)
 OE: enigma2
@@ -1132,15 +1132,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-graphmultiepg
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: dd2fae4e90dbbcfc5900434cdb029ef9
-SHA256sum: d1bae36a97c608f39c83467578542be7d25e06f586bfbb43524d674c1b8d1d41
-Size: 46124
-Filename: enigma2-plugin-extensions-graphmultiepg_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 761de9d10327344532e0f6ee3b46b9a8
+SHA256sum: f0353c791efa3f20851e73b6c73557d2a8da1116360ca8246db000a79cd01655
+Size: 46122
+Filename: enigma2-plugin-extensions-graphmultiepg_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg
 OE: enigma2
@@ -1149,15 +1149,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: ae8999e97d60ce4cbaf3c698c15ec107
-SHA256sum: 8a2077fc810c34b1ee8bdf5d9bcffa06a6845a3aa4fd0f30932cd502d69f3e55
+MD5Sum: 43c6ee0f76fb05913ba42f7e96931f61
+SHA256sum: 0852e442dd0e0845f3ddf2598e32bf136fabc0614357d787ba8f00355c2da74c
 Size: 12458
-Filename: enigma2-plugin-extensions-mediaplayer-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-extensions-mediaplayer-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer (source files)
 OE: enigma2
@@ -1166,15 +1166,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: d591f1e2bcb41c706d387dd66fc5be65
-SHA256sum: 9234ca7f4fe4e7627b4858c7034af9f37817143485cee8b240a7a49e585e2066
+MD5Sum: 62e352c53671efbbbaccf483fba6e181
+SHA256sum: f13724a265c3f72c983cdba560f82d98c69e0cdd09772c84abc888376f436ed5
 Size: 38282
-Filename: enigma2-plugin-extensions-mediaplayer_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-extensions-mediaplayer_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer
 OE: enigma2
@@ -1183,15 +1183,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 11bf530ce90b2df2d772404d4d3e6212
-SHA256sum: f322104878357b7446f84cdba0b9a1793fd30ffe57b614eb7bc07296a687cfb1
-Size: 1752
-Filename: enigma2-plugin-extensions-mediascanner-src_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 030abe0c67a6ea869a529b6fbb0bafee
+SHA256sum: ae67172f0c4e577e3b593d6826d515c9231b51efc9d421331daf5f299238c344
+Size: 1750
+Filename: enigma2-plugin-extensions-mediascanner-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner (source files)
 OE: enigma2
@@ -1200,15 +1200,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: b5c7d1450a9598913507760f2d88949d
-SHA256sum: e5bbe7498d74310fd59d80153688d8bcc7b2f875fdf2d051ede3816caba62f3b
+MD5Sum: b5454431487cb209ebdd8cd165668a97
+SHA256sum: 6d5d82e44354c26a18641f6e3fe3ae53d5c0cf9011f67ab3fbace7402182bd2f
 Size: 6174
-Filename: enigma2-plugin-extensions-mediascanner_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-extensions-mediascanner_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner
 OE: enigma2
@@ -1217,15 +1217,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: ad6cc7271e929a38fef8efa2c567b863
-SHA256sum: 396ec6d0c5dc9aea885cf70c0a8bdf1a8658e2c1bc217002128d596170cb0f50
-Size: 6622
-Filename: enigma2-plugin-extensions-pictureplayer-src_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 2c1ee9db59f29765bd1185947922eecb
+SHA256sum: 7d0ea432de6661e3016ea95daf4aff2f3098c98364dc3ef614c8acad79ceada0
+Size: 6620
+Filename: enigma2-plugin-extensions-pictureplayer-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer (source files)
 OE: enigma2
@@ -1234,15 +1234,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: f3d79d878f6bc5995983ea9abc30eee0
-SHA256sum: 272dc1ff400d583ae3b25320b2974168595349cb7d10eec7a3c66a3c128e9f7a
+MD5Sum: c4498e716309fe8ee20397f5bd2421cc
+SHA256sum: 3b657eb5141d1fcd8e6a3ebfcc64c5470167728785a704ea0bfc7d14b9ed8fce
 Size: 21150
-Filename: enigma2-plugin-extensions-pictureplayer_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-extensions-pictureplayer_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer
 OE: enigma2
@@ -1251,16 +1251,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-dbg
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libcrypto-dbg, libcurl-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libgcc-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-turbo-dbg, libpng-dbg, libpython3-dbg, libsigc++-3-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libudfread-dbg, libwebp-dbg, libxcrypt-dbg, libxml2-dbg, tuxtxt-enigma2-dbg
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 9b8fc73f272a91762738cbec1de12302
-SHA256sum: 0c2dd78f6c8d52c54f8cea09f548ee0ea7ac535e3e274d3cd7cb86e9912891a9
-Size: 17616326
-Filename: enigma2-plugin-extensions-socketmmi-dbg_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 7117f2ef391221731df96bbe96b7aa09
+SHA256sum: 3558d2a6340b04af6f7344c94d85099102811cf0046136e1a30334907c76168f
+Size: 17619532
+Filename: enigma2-plugin-extensions-socketmmi-dbg_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (debug)
 OE: enigma2
@@ -1269,15 +1269,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 1aff534e31a001e7fa2bd396a121b5ca
-SHA256sum: 2fe4a623155022cf6becbda90e7075636005ef0c0db2d8501d93c24e0a0da438
-Size: 1520
-Filename: enigma2-plugin-extensions-socketmmi-src_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 10623e24c9613605fc319d7f240df96d
+SHA256sum: a1aabe7849c4a4b07cfeaa3e07471768ae1dba37db7c7ca5c8cf7094a3d1b4bd
+Size: 1518
+Filename: enigma2-plugin-extensions-socketmmi-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (source files)
 OE: enigma2
@@ -1286,15 +1286,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-staticdev
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 5086ba34015ab2f0a5a31da4848cba0d
-SHA256sum: 416a8cc062f67eb9ff577355feeb5931fc1f8d93ec0c86cfe3235e5be1f9e78a
-Size: 135168
-Filename: enigma2-plugin-extensions-socketmmi-staticdev_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 136ba39ce9d6c1ca275e3df4a9a0a676
+SHA256sum: 7a78e324839f1a1b81b133289fa30e78f2a88cd7f94dc08f591291c75c6d05ac
+Size: 134708
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (static development)
 OE: enigma2
@@ -1303,15 +1303,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi
-Version: 5.9+git0+0-r0
-Depends: enigma2, libc6 (>= 2.41+git0+0c76c95162), libgcc1 (>= 15.1.0), libstdc++6 (>= 15.1.0), libudfread3 (>= 1.2.0+git123+c3cd5cb0+c3cd5cbb09), libxml2 (>= 2.14.3)
+Version: 6.0+git0+0-r0
+Depends: enigma2, libc6 (>= 2.42+git0+e34453cd6a), libgcc1 (>= 15.2.0), libstdc++6 (>= 15.2.0), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libxml2 (>= 2.14.6)
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: b80490f4c060abc48dbf172319d50ea9
-SHA256sum: edf439c561fff57f99c1a6464d06c5fba6816041f05118f823cec5b1fb609e61
-Size: 15840
-Filename: enigma2-plugin-extensions-socketmmi_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 1eeebd0d2e1ff029c206dcd4113affef
+SHA256sum: 348f7c7653ada3cf81485d92d601416492584dd9fa40be296567d666d745c9c8
+Size: 15838
+Filename: enigma2-plugin-extensions-socketmmi_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
 OE: enigma2
@@ -1320,15 +1320,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-streamlinkwrapper-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: b8673e91f6a9eb80d4efabed627f7391
-SHA256sum: 6e458c8260100914fb833e377d531984545eb05fa36342d8814105d7fef02697
+MD5Sum: ce44eecc66eee5510bc8b09964b133b1
+SHA256sum: 3adf09f59359bca05ffba230b69fd33076d67c0f9488c9a8774067ee5231d37a
 Size: 1288
-Filename: enigma2-plugin-extensions-streamlinkwrapper-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-extensions-streamlinkwrapper-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-streamlinkwrapper (source files)
 OE: enigma2
@@ -1337,15 +1337,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-streamlinkwrapper
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2, streamlink
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: d14ba99eddd7c10c326b369516b63398
-SHA256sum: 3e3a8c4a136d0d956630d54529e9dead3b91d44735ae5f99242f1f5883f533ea
-Size: 2174
-Filename: enigma2-plugin-extensions-streamlinkwrapper_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 83e91c956484445d941f088c23df6f60
+SHA256sum: 6880a0888674a22349903f024fc6c4455b62409dd1c31aeab2564764abd628d9
+Size: 2170
+Filename: enigma2-plugin-extensions-streamlinkwrapper_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: Enables support for streamlink url scheme in bouquet list.
 OE: enigma2
@@ -1354,15 +1354,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-ytdlpwrapper-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 0ac8ea5a85f731c04550a47d67fa64ec
-SHA256sum: 6e01cf25fc850b3fe282b6bd759f081f39df8686010c9a7cf1b2b4666bcfdb8b
+MD5Sum: c705157e7af35a1cf337acf2e17fd11a
+SHA256sum: 29fb922af1b8a64f7a93954be9f8f5c8610bf06e196cd87aab2ad08aa6053307
 Size: 1360
-Filename: enigma2-plugin-extensions-ytdlpwrapper-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-extensions-ytdlpwrapper-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-ytdlpwrapper (source files)
 OE: enigma2
@@ -1371,15 +1371,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-ytdlpwrapper
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2, python3-yt-dlp
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 6c84ca0c7ffa2f0e35c6c5485465c5af
-SHA256sum: 5f671b1d3721638d022b7f75cfcd559aba960e70ccc1a38e17899f19e04186ec
+MD5Sum: c2be7e29f6c94c95169995719f234c7a
+SHA256sum: 27797a793dd625f37ccedcd07748838f3ffc6fe1ac590cf6497efe5c11fc3218
 Size: 2302
-Filename: enigma2-plugin-extensions-ytdlpwrapper_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-extensions-ytdlpwrapper_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: Enables support for YT-DLP url scheme in bouquet list.
 OE: enigma2
@@ -1388,15 +1388,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-ytdlwrapper-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 1fa65d6392ab1dbe9515ae1d4963a6b3
-SHA256sum: 0e87f5017310b4f03c2c935cf0f2da02ea8a897650e700298a7c64ff5563f2f6
-Size: 1336
-Filename: enigma2-plugin-extensions-ytdlwrapper-src_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: f819d48d4ba65a5a99ad9e675ba0f529
+SHA256sum: 2fffccb96cfd986e90128f318b645aee5b4d3816ff9754ed82f6fb8d4acbc978
+Size: 1334
+Filename: enigma2-plugin-extensions-ytdlwrapper-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: extensions-ytdlwrapper (source files)
 OE: enigma2
@@ -1405,15 +1405,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-ytdlwrapper
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2, python3-youtube-dl
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 5cfaec38ec7127fb06fac9275680d373
-SHA256sum: 5b58a836d3aecf50336c527aea2f1954bbd37a2ea9b5068b40162067732c7c5c
+MD5Sum: 36d344735e09d1eeed2e7178e63ed1ea
+SHA256sum: 751cbf15ea0329438a6162b0e61e0ead8d9803e619c3179de13f5f3dc0089a3c
 Size: 2250
-Filename: enigma2-plugin-extensions-ytdlwrapper_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-extensions-ytdlwrapper_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: Enables support for Youtube-DL url scheme in bouquet list.
 OE: enigma2
@@ -1422,14 +1422,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-font-wqy-microhei
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: a73bafc41dfac6a18c5d69a3a88d2c2e
-SHA256sum: fa5b1d43e25ee0b9a2c6d693b4142a3d319a9469c21fa0882088e6e391fc4943
-Size: 2009676
-Filename: enigma2-plugin-font-wqy-microhei_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 36cdcd3df45d2a1b307b6d0a9c572bec
+SHA256sum: 5da7248ad462100375c90a4408af4ce8beb14c662a901e964fcd216b7e23bbee
+Size: 2009674
+Filename: enigma2-plugin-font-wqy-microhei_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
 OE: enigma2
@@ -1438,15 +1438,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-animationsetup-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: c494f595a6b45a1b0f1e3fad4ce8df34
-SHA256sum: 6d7c89af1bb9bbd13ad1eb83db465d7c177315fa9d18e9d4e9674f5795677a3c
+MD5Sum: 6e185412b014a37b30e1858fc02a49d6
+SHA256sum: dc1481fdc84f9f00ada11ae305f41d6aa5650e2b9b56bc8316c61d0cd002c641
 Size: 3188
-Filename: enigma2-plugin-systemplugins-animationsetup-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-animationsetup-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-animationsetup (source files)
 OE: enigma2
@@ -1455,15 +1455,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-animationsetup
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 980a675cf23abc9e14871b44cbc1371c
-SHA256sum: 941dbd026b655c7b6c20624a1cf7bcdc74f4c9a804b1a04a78b8f2621124b8ba
+MD5Sum: e52936deb9b0ce769bdc7e2fd3a66bb8
+SHA256sum: 6ddd422dde33186ee9dab9b7d2236f89369928da582f12252867eb728fcee718
 Size: 6948
-Filename: enigma2-plugin-systemplugins-animationsetup_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-animationsetup_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-animationsetup
 OE: enigma2
@@ -1472,15 +1472,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-cablescan-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 7bf43e15183a92b8d897dd51a9e32a03
-SHA256sum: 49ed777a58a401a0dbf88f20578b8f6b6d601c661bfeb3b06749d4a0ca2469a9
+MD5Sum: 7649ef724e255d1ef16e7ca99be7bf96
+SHA256sum: a0cb5d43cf3fdf4d909dd1ef8a222a82e1248b567b051b2cbaa4f8876e581149
 Size: 3842
-Filename: enigma2-plugin-systemplugins-cablescan-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-cablescan-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan (source files)
 OE: enigma2
@@ -1489,15 +1489,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-cablescan
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 6caf44005c640a70f3f8c2cf6ffdd67d
-SHA256sum: d09d502b3d069324149dce1210ef3787db5c0b9dad53c851e3b5bc2f6e7db569
+MD5Sum: f21c85d2a2f856cb08a2da1694877fab
+SHA256sum: f8304d0a83750451a4da81275f6146d688b829973d4672f86721758f387dd337
 Size: 9668
-Filename: enigma2-plugin-systemplugins-cablescan_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-cablescan_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan
 OE: enigma2
@@ -1506,15 +1506,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 15beaff6b146a557641920391b9cca5f
-SHA256sum: 1805b9dfe4e95dd812b9470fa03fd95a157f58eeaf03e6828a93953c244d74b8
+MD5Sum: 49df6b7b2681383d3bfe9552b9055e3a
+SHA256sum: 9c2aaa07db03d903fa58397a26d0d09fa719bbcc51314711fea5c7cbf0208724
 Size: 7014
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment (source files)
 OE: enigma2
@@ -1523,15 +1523,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 7b30c9719c6ba5e757ac23e597416d0f
-SHA256sum: b6c01fbc07a47004e8d5070bea4f626370682d567d3513b68aa2509e296e2d3c
+MD5Sum: 0be3978d450f8e9528b6a077f398c7da
+SHA256sum: cf4e2a8c05d2e75eef8ed27ac1cb7dd767c072c3571316b85397037c41dd0acf
 Size: 17786
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment
 OE: enigma2
@@ -1540,15 +1540,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 04dda1930c82615a5f6c10f9003f9a11
-SHA256sum: 8703bb5a86a84daed0a07b8426c71b6753d15984fb9ee769eb70bde2f5e802f3
+MD5Sum: dc450ac19c1f56d891cc5d0942ee31ac
+SHA256sum: 3df6b316b90a65f2d0348e9c20baa353d584f27d71b568229d4ef31feabe9720
 Size: 2650
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner (source files)
 OE: enigma2
@@ -1557,15 +1557,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 3792cdc4c7b65fb7c8101324735a9110
-SHA256sum: 39ebefcb16f2fa0475025a1202e3dd18d0671d9768e61e09c3afee4dd2cdccf6
-Size: 4836
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: b20e4b573c1cfd349b26b728dea60b87
+SHA256sum: f1d227b09cd32749bfad1c5e0afecd6ba03a0544ab28c54d669535a6928bf8cf
+Size: 4834
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner
 OE: enigma2
@@ -1574,15 +1574,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: c961ed5943d6d1c75c25feff2263d83e
-SHA256sum: b68c11aecdae7d45cadd91778b8123a63964c6bcc6db7244094be28d88098833
+MD5Sum: 4905585dbaf6cb641e5dcf14dd51d496
+SHA256sum: 7230f2cb02efd437ca73e8fe5bad86236b143de65f7d3b8cd41a3e40ec3cabd6
 Size: 6822
-Filename: enigma2-plugin-systemplugins-diseqctester-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-diseqctester-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester (source files)
 OE: enigma2
@@ -1591,15 +1591,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: b0fac2a285bdc90311a3ded6d617d8f0
-SHA256sum: b1a8b53f303ae2c534b8eaf7bad6e66da097dab3eea8b74a1efd03d31cb7813d
+MD5Sum: 806b68792d74ef70e402b36d192c11b6
+SHA256sum: 633721af718e9a69b7899a094bee974bef149a1da5248f26730bd0ca5d621d3c
 Size: 16146
-Filename: enigma2-plugin-systemplugins-diseqctester_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-diseqctester_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester
 OE: enigma2
@@ -1608,15 +1608,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastchannelchange-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 9bf2fa83c5d31bb0e4cd3493bdf98c02
-SHA256sum: cbbe956bf06e69c4abca4e3a48fa21530e3189e6d413d6a43f1d75f9c7315513
+MD5Sum: 589cd0890e13e99b0b686daa2bc56b4d
+SHA256sum: f95d38befe80059af7f97f6fd89caf62de69a6cd6c43b5846d6b8de9272e889b
 Size: 5114
-Filename: enigma2-plugin-systemplugins-fastchannelchange-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-fastchannelchange-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-fastchannelchange (source files)
 OE: enigma2
@@ -1625,15 +1625,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastchannelchange
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 3af7425932045aa108f8f7431b8d9711
-SHA256sum: 53bb92450d991e5b9aa312565c66508d862c654e1f060413d0cebfe261d1843b
-Size: 13008
-Filename: enigma2-plugin-systemplugins-fastchannelchange_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 3ac3f15a6384429eabd20021df124565
+SHA256sum: 4a117e38154ef7923af2d648e6d33f4440aa6322648dbf40c0b0e7864c052a1f
+Size: 13006
+Filename: enigma2-plugin-systemplugins-fastchannelchange_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-fastchannelchange
 OE: enigma2
@@ -1642,15 +1642,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 9e4ef4b13a324d233bc03861f010dc0f
-SHA256sum: 7abb86bcd7222f4157b9c179bdee41de6bcf8cc31eac78b149b795d7f3d2b235
+MD5Sum: a762612fda070938fb342ac840dec4e5
+SHA256sum: 3659bb0bcea811edd3c21f6f5dc8c13f37a8a28114f2a4b9c4263fbbd78b7996
 Size: 5232
-Filename: enigma2-plugin-systemplugins-fastscan-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-fastscan-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan (source files)
 OE: enigma2
@@ -1659,15 +1659,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 6f218051fc87e2021477ffb041d41498
-SHA256sum: db62a9f323786460053e455a523f0a354e6b2d49fd279767437f2bff5182be68
-Size: 13542
-Filename: enigma2-plugin-systemplugins-fastscan_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 641c0c201c70e55ff5d74213a4beb10a
+SHA256sum: 9fa629d56b78ffcdba701077ff45ab0575d1bdcd29e4f41d077453f0019ed6c6
+Size: 13540
+Filename: enigma2-plugin-systemplugins-fastscan_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan
 OE: enigma2
@@ -1676,15 +1676,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: b2eb019ef301dff08f35c5e8a99a2610
-SHA256sum: 0bd4bfe0f32ce3afca2653dc09540956273d2b132a80fe3e882994a7b074336f
+MD5Sum: 46fee77d63e3eaff35cc1f15ea3181b6
+SHA256sum: d1362e3108e5a3392701a6ef7285561c362bfc757781f4a8fdae94bfa209bb27
 Size: 3998
-Filename: enigma2-plugin-systemplugins-hdmicec-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-hdmicec-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec (source files)
 OE: enigma2
@@ -1693,15 +1693,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 3ab5e410487158e429079f93cdcc5160
-SHA256sum: 85051a072f1af8e67f9525bbe9a01283d846e0565ede814404a4ed3da97b6700
-Size: 8170
-Filename: enigma2-plugin-systemplugins-hdmicec_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: c594c4b1d4197de6fd8f33572a02ba2e
+SHA256sum: 14844b779c074f4e9af75a95c97dcad4bab872c15142b97f73b175f6868a6240
+Size: 8168
+Filename: enigma2-plugin-systemplugins-hdmicec_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec
 OE: enigma2
@@ -1710,15 +1710,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: a3bef8605adea41578ae4ee52413c632
-SHA256sum: 87ceb8caf25c87ec18e9310373be2307587cf3ca6ad448fa6dbdebcad10b7c03
+MD5Sum: 6c9b61be325633f073c504a622df4a58
+SHA256sum: 07957448079bb620fa4891920412497cc5cb1452599770f8248311d3b5a71042
 Size: 4138
-Filename: enigma2-plugin-systemplugins-hotplug-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-hotplug-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug (source files)
 OE: enigma2
@@ -1727,15 +1727,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: af153f8e672ad5778cef24c7546063cd
-SHA256sum: dd5c5ec5dd572f9b4e148be590b2f716f21c76976d36ffa06a0c414c57465050
-Size: 9286
-Filename: enigma2-plugin-systemplugins-hotplug_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 1d5dbe2b5a7aa5da0c3436d8c58126eb
+SHA256sum: c0a7847f3af3580df6aacc0e1e9e422abe40dba9a8c73a7fe779a534e152154e
+Size: 9284
+Filename: enigma2-plugin-systemplugins-hotplug_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug
 OE: enigma2
@@ -1744,15 +1744,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-lcnscanner-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 7b93c810e89607a7f0deab9fa09b0842
-SHA256sum: d33ad64fb74245d180fd54ba3fd04f3a8609dc53f81714008f3122152c927c44
+MD5Sum: 489126eea8fff7f0346ccb782fb1b81d
+SHA256sum: bce92a471bfe16570f078a730e3a8d7a559656d7a5b1c8a818e1883e568616d6
 Size: 7068
-Filename: enigma2-plugin-systemplugins-lcnscanner-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-lcnscanner-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-lcnscanner (source files)
 OE: enigma2
@@ -1761,15 +1761,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-lcnscanner
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: f72c6e03e543bf3b363700d8db93581a
-SHA256sum: 3602b335b8a340c111133b76db5c07bb12bb412fc60119e8b5b3b0b8c0f3d7b4
+MD5Sum: 5a78cd42e662a039c8ac0dfdaf955c69
+SHA256sum: b2f9e950fac638145226b728d478b133789d1f4d19e7fc5b47d208ac3a722dff
 Size: 22340
-Filename: enigma2-plugin-systemplugins-lcnscanner_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-lcnscanner_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-lcnscanner
 OE: enigma2
@@ -1778,15 +1778,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 9fd070cf0862d5d16fb1387d63351704
-SHA256sum: f51976453b78eef04eb6a7d08140ce8a8be94fe3a02c3468ce711817362dc459
+MD5Sum: da8c71d602c8ef8ad23c6a75e8495208
+SHA256sum: 831a477a1fce6f785d881d1eb7bb438c4a366267a0432ad313455b04c1706dac
 Size: 4724
-Filename: enigma2-plugin-systemplugins-networkwizard-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-networkwizard-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard (source files)
 OE: enigma2
@@ -1795,15 +1795,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: abc45919628d3569b3930c16d5e91c1f
-SHA256sum: 7cd25aa64918bd79a93c638d7b489ed910f0e2bf1f45a106fbd3eb142c57b072
-Size: 12422
-Filename: enigma2-plugin-systemplugins-networkwizard_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 3689553b1cd907b5ac4d9e72a4d822d3
+SHA256sum: f47c31113a797cce0eafa66c0553040d469255e7c1631584c467cf07bfb13221
+Size: 12420
+Filename: enigma2-plugin-systemplugins-networkwizard_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard
 OE: enigma2
@@ -1812,15 +1812,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osd3dsetup-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: fab6cf0bbadb7373053b7b875d80675a
-SHA256sum: f2d40404f4ccc3ba1c4a8d11c0f697eabb62b75bbe85581b65c522d634c19a12
+MD5Sum: f2b52e2b7d3756c3ac7a5064380e2463
+SHA256sum: 5eed1af6149117696d614ba865d1d442f631fc969bc49770c004b19974443a8c
 Size: 2490
-Filename: enigma2-plugin-systemplugins-osd3dsetup-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-osd3dsetup-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-osd3dsetup (source files)
 OE: enigma2
@@ -1829,15 +1829,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osd3dsetup
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: f17ba35f188be510865e932a86d580a6
-SHA256sum: 4cd314476e13ae972ab945987c790342326ab3155060c774db94411bd8b512a4
+MD5Sum: f7a7f92ec65d277779317b7355b200c3
+SHA256sum: 7ba8b0b4936881817461ee0cd8d1296eeae620e5b487a0523aa8e567c26b0ab2
 Size: 5598
-Filename: enigma2-plugin-systemplugins-osd3dsetup_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-osd3dsetup_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-osd3dsetup
 OE: enigma2
@@ -1846,15 +1846,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osdpositionsetup-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 5e5c827a2de958733b22bb18640ae398
-SHA256sum: a577ca8c977b68dbc6a1172e1c7f9c247c1cda1090039f08b4d4b180e1a3f9d2
+MD5Sum: 61968784441a26559a2f3348ffdc7c70
+SHA256sum: f88643fe77e9bf376e1e30fd147e7e66c20f15e656ca7aebfd2dee725fdabe9f
 Size: 4548
-Filename: enigma2-plugin-systemplugins-osdpositionsetup-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-osdpositionsetup-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-osdpositionsetup (source files)
 OE: enigma2
@@ -1863,15 +1863,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osdpositionsetup
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 25bf4bca219246d0d855239067261a1b
-SHA256sum: 8315834bf11bf6b244852ed2229447fa23a8db5d02436a247661d4ed667cf872
-Size: 9808
-Filename: enigma2-plugin-systemplugins-osdpositionsetup_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 57e835fef6cd230e5f155040e4a45341
+SHA256sum: 00ba969a9fbbb5de27b6cde232cc16be22150566ff8085d5331c806283731a3d
+Size: 9806
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-osdpositionsetup
 OE: enigma2
@@ -1880,15 +1880,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 38a3d3159d2a24b91f78936f2823929e
-SHA256sum: 275336d98ec75ccc8cd361814c2cba1cf00e65f9640680e3b20ff93265beeb11
-Size: 18000
-Filename: enigma2-plugin-systemplugins-positionersetup-src_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: c380d44f55811ab0c03cc96eb56d6dae
+SHA256sum: 6e63074692e9ab547c8e0cb85530e7ef5b3cab6ccfb5de672f2eda1102726dfc
+Size: 17998
+Filename: enigma2-plugin-systemplugins-positionersetup-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup (source files)
 OE: enigma2
@@ -1897,15 +1897,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: bb3b75ad12b7fb436c1f966f82fb4ed1
-SHA256sum: 90ceb84e0cd8943189b7d78208d867fc22fd4f1f33de6f64f2e52996ef31fbb6
-Size: 47048
-Filename: enigma2-plugin-systemplugins-positionersetup_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: d1b9ef514dbb23e44b811aed94aafc97
+SHA256sum: 86775c8761851c2dbc1a67d39bd15d624635fe7d19568898a3486381eb4f5f6a
+Size: 47046
+Filename: enigma2-plugin-systemplugins-positionersetup_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup
 OE: enigma2
@@ -1914,15 +1914,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 4962d8b55f255244890e3e2363394ee8
-SHA256sum: f303909ac64ccf769f815f1eed3623be8325a9d13d254a6dab39b8e74ad3b9e7
-Size: 2092
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 710586e4f4acede8d4d7f4562b1342ff
+SHA256sum: 95f7cf23b9bca2cf23fe5d63e948ebf32fff15cd08bf5ba8b5eb77c8e487057a
+Size: 2090
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol (source files)
 OE: enigma2
@@ -1931,15 +1931,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: e846db72e6180b3671cd053026bea30d
-SHA256sum: c9c69cfd33c2e093412ff82c32fe8c3e96f1b9fcf7f2e78dd28ccbdc80db36ab
-Size: 3980
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 4dac461fd26580df7464fba1c147e8ee
+SHA256sum: 30ad4b1991d2dd85d830dd989243f3b0b2e7d74bb12c526e98321306d6a05e93
+Size: 3982
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol
 OE: enigma2
@@ -1948,15 +1948,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 7d1d116309e45055d9310188f416781e
-SHA256sum: d2fd6b16ac5edf9c37adfa6f9c8504a527489de144066f8b0d344a231bca86c9
+MD5Sum: aaf544944e489ac85c45fbcaf1cdcc97
+SHA256sum: 5d392c12404a291a8cb02e918695bcd635b8e9595e77abf91594642c421492c4
 Size: 6946
-Filename: enigma2-plugin-systemplugins-satfinder-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-satfinder-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder (source files)
 OE: enigma2
@@ -1965,15 +1965,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: e7d9f581c1308308bc7a0b86638c2743
-SHA256sum: 98fc1be9afbbedf43f5550d6676016d98c3d66e7a2d3d28f556f8f2319552f63
+MD5Sum: eaad5f6ea11b9a97b15b57aa9007047e
+SHA256sum: 1e9d7c2bc6b975d826da01dc090e92f3b543b187792cb9502b267fd9b5e31e96
 Size: 17002
-Filename: enigma2-plugin-systemplugins-satfinder_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-satfinder_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder
 OE: enigma2
@@ -1982,15 +1982,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-softwaremanager-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: ce929af0b2b6bc83c7fbb0b33e680c2f
-SHA256sum: c4cf14ff7d30845574c2cca551eba24c4f316563128adb6e7063216383996a47
-Size: 20220
-Filename: enigma2-plugin-systemplugins-softwaremanager-src_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: b834d284bed5a323f5d41a5bd2bea2cf
+SHA256sum: 7f2a608276a43e09f72076de6686a1dd19aa18e69c77f85e2d5692c1f33b2c6a
+Size: 20236
+Filename: enigma2-plugin-systemplugins-softwaremanager-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager (source files)
 OE: enigma2
@@ -1999,15 +1999,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-softwaremanager
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2, python3-twisted-web
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 146565154a9312bbed6471d481cac5dd
-SHA256sum: 38a01a1be6f87b7880b7e45b3b273fa3fb6ea58d4e9dd968b55e30af541aa2bb
-Size: 70670
-Filename: enigma2-plugin-systemplugins-softwaremanager_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 72f37629e52ef8d76b7c3e7e081ebd81
+SHA256sum: 57b47a546efc597410362c2ed993b83906d6c71a09e525244e4266f5c80d039c
+Size: 70412
+Filename: enigma2-plugin-systemplugins-softwaremanager_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager
 OE: enigma2
@@ -2016,15 +2016,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 40eaa72a15d7f753b619b73a2aa0fe04
-SHA256sum: 2705b4f4f94b807ca683785f65d45f41c8e043a1bce2ef80f8b7942f35ae22d8
+MD5Sum: fc90c33fb6755eaa6da851d27039c1e0
+SHA256sum: 477feda7a3d1a3b7bfb0da2fabb30767b5ca2c7711b82eaeddfcaa5c05bd10b4
 Size: 2342
-Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup (source files)
 OE: enigma2
@@ -2033,15 +2033,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: d0320f25217ad71fa555a5f00c2de5f8
-SHA256sum: f02ebec39d5143af8ace50a4698069642ff3e6bf90f7e1e95d345f5a7a8c0f2b
+MD5Sum: da13d069a769d407b222bf8f271596e0
+SHA256sum: 08bd83081da47ffa67a2405c087fcf71e75b7c913b0a20f5f4590ffa4d93ebc4
 Size: 5006
-Filename: enigma2-plugin-systemplugins-videoclippingsetup_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup
 OE: enigma2
@@ -2050,15 +2050,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 7d0751d3fce6db945fa28576a63d53db
-SHA256sum: 9e94dc88ccdd68cafdd73b13e24db4f97b62363c30c57b332520b89edca86701
+MD5Sum: 196b5f82b1246bcdcc6bcf1c77038e7a
+SHA256sum: 014b5108b8096c97924df258d59ecebbff856495aff16645baeb2c42c67ad475
 Size: 6020
-Filename: enigma2-plugin-systemplugins-videoenhancement-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-videoenhancement-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement (source files)
 OE: enigma2
@@ -2067,15 +2067,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 5dc2484dd15e799fbb9129b77e218dbe
-SHA256sum: 68a467dc1f236c7a898e993b773b374284f8aea2168db585a0f011362d9c8e4f
+MD5Sum: 7050a70a19d41ea25bb24858351e83e9
+SHA256sum: f926434cb7fdf2f86578ffd86e3534efb1122703e1984861b16523e70bb16b35
 Size: 15440
-Filename: enigma2-plugin-systemplugins-videoenhancement_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-videoenhancement_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement
 OE: enigma2
@@ -2084,15 +2084,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videomode-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 3277d574d2a0e57e597df716c26cd3d1
-SHA256sum: 8dc77a66347080f8546a103402c36e8f13786de9d0547ca949badcb5dc27b3dd
-Size: 10680
-Filename: enigma2-plugin-systemplugins-videomode-src_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: aebd553e6eabf0c36bdc866342b7e80f
+SHA256sum: b7a1c7b40d1ca92a7dc12e07ca11817ab021d8f7afba913957d9da8bebc68c41
+Size: 10642
+Filename: enigma2-plugin-systemplugins-videomode-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-videomode (source files)
 OE: enigma2
@@ -2101,15 +2101,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videomode
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 91a7f88482b4331f65322919b815b55b
-SHA256sum: 5cfb367e3012153b4b998785442e858cb4bc85e299d7e75e975b0100499f2261
-Size: 34078
-Filename: enigma2-plugin-systemplugins-videomode_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: fc8f9a25cb0634b6bf79846c2dbc8c9e
+SHA256sum: 484c99ffb61b08935cd0104d50831d73a198d41ba5ceda42ee9ce7378ecd3cb4
+Size: 33904
+Filename: enigma2-plugin-systemplugins-videomode_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-videomode
 OE: enigma2
@@ -2118,15 +2118,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: beeea365caccb60b8169a6fd8e473212
-SHA256sum: 338077b1ca3bb78252605be28f8c4c4465ee0c7c120eaf757cd828db9e42463d
+MD5Sum: 25497c82e5cf234184ee5c44b457e6c4
+SHA256sum: bd95c7541a97394d92ccef4cb824812c5016cc771e93b4a8114474ccb9b1453b
 Size: 4986
-Filename: enigma2-plugin-systemplugins-videotune-src_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-videotune-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune (source files)
 OE: enigma2
@@ -2135,15 +2135,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 14802eb8f95f82956885e8c8cfad8261
-SHA256sum: ee7f2dbc2d4f8351c46ab0a41cfb444e0a0a205896bc718a91f0bc666a4c52ef
+MD5Sum: 368fd896e665733d805fb52201b3ac8f
+SHA256sum: 01db4330341063661e17ed000f783904e0cab039aeb56a7d545aa557c40c4146
 Size: 72202
-Filename: enigma2-plugin-systemplugins-videotune_5.9+git0+0-r0_geniuse3hd.ipk
+Filename: enigma2-plugin-systemplugins-videotune_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune
 OE: enigma2
@@ -2152,15 +2152,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 43077450a58a15767f97352efc2a2e87
-SHA256sum: d819d97cf408adc2c0705bb0fbdecf71d7a5816398c523be9a3008a044f6259d
-Size: 8954
-Filename: enigma2-plugin-systemplugins-wirelesslan-src_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: e470b158a9a5ef1b10d3fe27e548d782
+SHA256sum: aefc2b6f08b57228472e69e7daead5d5bd27cc76499b5e236280ddc232dfb3d3
+Size: 8956
+Filename: enigma2-plugin-systemplugins-wirelesslan-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan (source files)
 OE: enigma2
@@ -2169,15 +2169,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Depends: enigma2, python3-wifi, wireless-tools, wpa-supplicant
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 4bdaf8ceafa5e8ac3ff9332f56aa9b12
-SHA256sum: cfa37c2089ff2bc931fd5e188b8f3c63abdfc6009aca09791d352077f5875b39
-Size: 22132
-Filename: enigma2-plugin-systemplugins-wirelesslan_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: fcd6fbf15a3c32e420564a2bf12db4ea
+SHA256sum: bfddbc6ff094939a7f5170e5b78a3ed7962495f5dbe5202f2fae090a55a9d22c
+Size: 22012
+Filename: enigma2-plugin-systemplugins-wirelesslan_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan
 OE: enigma2
@@ -2186,14 +2186,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-src
-Version: 5.9+git0+0-r0
+Version: 6.0+git0+0-r0
 Section: devel
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 3949e3aba732cf0bb74065e6385367e9
-SHA256sum: 1bb6599529a43bb7a84112919f56570a90617ad002a9050b76cb60f3d17af222
-Size: 875852
-Filename: enigma2-src_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 6b1a91d8925758fdde8a00ab29a0e353
+SHA256sum: c89e4b090511602de61853ef9b1833c252dcfa7cade88511eb3b51469ddd5b7c
+Size: 882786
+Filename: enigma2-src_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Source files
 OE: enigma2
@@ -2202,15 +2202,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-staticdev
-Version: 5.9+git0+0-r0
-Depends: enigma2-dev (= 5.9+git0+0-r0)
+Version: 6.0+git0+0-r0
+Depends: enigma2-dev (= 6.0+git0+0-r0)
 Section: devel
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 04033ee13e9f7543d15d0d8e180d72bc
-SHA256sum: 343fa03e3bff1c4506a5f652625e360753b619ea639a60160f0cf8553ada9a9e
-Size: 7270
-Filename: enigma2-staticdev_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: b218d567d4fc568874e20d72082b2cd5
+SHA256sum: f38944054a10a4c1ab3d65c370e0d3d9fce7f71d46f223ff857732cbd9e93b47
+Size: 7316
+Filename: enigma2-staticdev_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files (Static Libraries)
 OE: enigma2
@@ -2219,16 +2219,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2
-Version: 5.9+git0+0-r0
-Depends: alsa-conf, enigma2-fonts, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.26.2), libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.41+git0+0c76c95162), libcrypt2 (>= 4.4.38), libcrypto3 (>= 3.5.0), libcurl4 (>= 8.14.1), libdreamdvd0 (>= 1.1+git220+375e7910+375e791cd0), libdvbsi++1 (>= 0.3.9+git130+f3c40ea0+f3c40ea6da), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.1.0), libgif7 (>= 5.2.2), libglib-2.0-0 (>= 2.84.2), libgomp1 (>= 15.1.0), libgstpbutils-1.0-0 (>= 1.26.2), libjpeg62 (>= 3.1.1), libpng16-16 (>= 1.6.48), libpython3.13-1.0 (>= 3.13.5), libsigc-3.0-0 (>= 3.6.0), libssl3 (>= 3.5.0), libstdc++6 (>= 15.1.0), libtuxtxt0 (>= 2.0+git91+9319ad40+9319ad4058), libtuxtxt32bpp0 (>= 2.0+git91+9319ad40+9319ad4058), libudfread3 (>= 1.2.0+git123+c3cd5cb0+c3cd5cbb09), libwebp (>= 1.5.0), libxml2 (>= 2.14.3), oe-alliance-branding, python3-asyncio, python3-codecs, python3-core, python3-crypt, python3-email, python3-fcntl, python3-image, python3-mime, python3-mmap, python3-netclient, python3-netifaces, python3-netserver, python3-pickle, python3-pillow, python3-process, python3-pyusb, python3-shell, python3-six, python3-threading, python3-treq, python3-twisted-core, python3-twisted-web, python3-xml, python3-zopeinterface
+Version: 6.0+git0+0-r0
+Depends: alsa-conf, enigma2-fonts, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.26.7), libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.42+git0+e34453cd6a), libcrypt2 (>= 4.4.38), libcrypto3 (>= 3.6.0), libcurl4 (>= 8.16.0), libdreamdvd0 (>= 1.1+git220+375e7910+375e791cd0), libdvbsi++1 (>= 0.3.9+git130+f3c40ea0+f3c40ea6da), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.2.0), libgif7 (>= 5.2.2), libglib-2.0-0 (>= 2.86.0), libgomp1 (>= 15.2.0), libgstpbutils-1.0-0 (>= 1.26.7), libjpeg62 (>= 3.1.2), libpng16-16 (>= 1.6.50), libpython3.13-1.0 (>= 3.13.9), libsigc-3.0-0 (>= 3.6.0), libssl3 (>= 3.6.0), libstdc++6 (>= 15.2.0), libtuxtxt0 (>= 2.0+git91+9319ad40+9319ad4058), libtuxtxt32bpp0 (>= 2.0+git91+9319ad40+9319ad4058), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libwebp (>= 1.6.0), libxml2 (>= 2.14.6), oe-alliance-branding, python3-asyncio, python3-codecs, python3-core, python3-crypt, python3-email, python3-fcntl, python3-image, python3-mime, python3-mmap, python3-netclient, python3-netifaces, python3-netserver, python3-pickle, python3-pillow, python3-process, python3-pyusb, python3-shell, python3-six, python3-threading, python3-treq, python3-twisted-core, python3-twisted-web, python3-xml, python3-zopeinterface
 Recommends: glib-networking, glibc-gconv-utf-16, libdvdcss
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 526cb72a1124482f9533d73fb5e5455e
-SHA256sum: dd14de7e73f1476a87b861478394fe683cb4eefc67e42f67fc5b384900a3ab65
-Size: 5382402
-Filename: enigma2_5.9+git0+0-r0_geniuse3hd.ipk
+MD5Sum: 5af15912a948800de91271197338c453
+SHA256sum: f07d12d8244987c6b5e189a8615ed60e4f2a4d5a347f559118aa3ca2e8455059
+Size: 5476638
+Filename: enigma2_6.0+git0+0-r0_geniuse3hd.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
 OE: enigma2
@@ -2286,15 +2286,15 @@ License: Proprietary
 Priority: required
 
 Package: oe-alliance-base-dbg
-Version: 5.9-r4
-Recommends: 7zip-dbg, bash-dbg, cronie-dbg, dropbear-dbg, e2fsprogs-mke2fs-dbg, early-configure-dbg, elfutils-dbg, minilocale-dbg, modutils-loadscript-dbg, oe-alliance-botfeed-configs-dbg, oe-alliance-enigma2-dbg, oe-alliance-feeds-configs-dbg, opkg-dbg, packagegroup-base-dbg, packagegroup-core-boot-dbg, parted-dbg, procps-dbg, rc-local-dbg, util-linux-blkid-dbg, util-linux-flock-dbg, util-linux-sfdisk-dbg, volatile-media-dbg, wget-dbg, wireless-tools-dbg
+Version: 6.0-r4
+Recommends: 7zip-dbg, bash-dbg, cronie-dbg, dropbear-dbg, e2fsprogs-mke2fs-dbg, early-configure-dbg, elfutils-dbg, minilocale-dbg, modutils-loadscript-dbg, oe-alliance-3rdparty-feed-dbg, oe-alliance-botfeed-configs-dbg, oe-alliance-enigma2-dbg, oe-alliance-feeds-configs-dbg, opkg-dbg, packagegroup-base-dbg, packagegroup-core-boot-dbg, parted-dbg, procps-dbg, rc-local-dbg, tzdata-dbg, util-linux-blkid-dbg, util-linux-flock-dbg, util-linux-sfdisk-dbg, volatile-media-dbg, wget-dbg, wireless-tools-dbg
 Section: devel
 Architecture: geniuse3hd
 Maintainer: OpenFIX
-MD5Sum: d868b8adc9527f7c07cbe94faa434fbe
-SHA256sum: 1b49c64849b7c457b5c577caae9ed0b5dc039ff9f16c39b506f2ce484b4ec98d
-Size: 764
-Filename: oe-alliance-base-dbg_5.9-r4_geniuse3hd.ipk
+MD5Sum: 5bb5edd97fb3151dbaf4963cd3853560
+SHA256sum: 183089195964e74551ed92890700b7f224e1ed8f41fc718d3d5487f3931610f8
+Size: 780
+Filename: oe-alliance-base-dbg_6.0-r4_geniuse3hd.ipk
 Source: oe-alliance-base.bb
 Description: Base packages require for image. - Debugging files
 OE: oe-alliance-base
@@ -2303,15 +2303,15 @@ License: MIT
 Priority: optional
 
 Package: oe-alliance-base-dev
-Version: 5.9-r4
-Recommends: 7zip-dev, bash-dev, cronie-dev, dropbear-dev, e2fsprogs-mke2fs-dev, early-configure-dev, elfutils-dev, minilocale-dev, modutils-loadscript-dev, oe-alliance-base (= 5.9-r4), oe-alliance-botfeed-configs-dev, oe-alliance-enigma2-dev, oe-alliance-feeds-configs-dev, opkg-dev, packagegroup-base-dev, packagegroup-core-boot-dev, parted-dev, procps-dev, rc-local-dev, util-linux-blkid-dev, util-linux-flock-dev, util-linux-sfdisk-dev, volatile-media-dev, wget-dev, wireless-tools-dev
+Version: 6.0-r4
+Recommends: 7zip-dev, bash-dev, cronie-dev, dropbear-dev, e2fsprogs-mke2fs-dev, early-configure-dev, elfutils-dev, minilocale-dev, modutils-loadscript-dev, oe-alliance-3rdparty-feed-dev, oe-alliance-base (= 6.0-r4), oe-alliance-botfeed-configs-dev, oe-alliance-enigma2-dev, oe-alliance-feeds-configs-dev, opkg-dev, packagegroup-base-dev, packagegroup-core-boot-dev, parted-dev, procps-dev, rc-local-dev, tzdata-dev, util-linux-blkid-dev, util-linux-flock-dev, util-linux-sfdisk-dev, volatile-media-dev, wget-dev, wireless-tools-dev
 Section: devel
 Architecture: geniuse3hd
 Maintainer: OpenFIX
-MD5Sum: 238f056c822bd2d7532c3125ec44c54b
-SHA256sum: 7d4542efff1fb0f39de1398a70406ebd1f54801853f67edb7f0b65bb88a20494
-Size: 792
-Filename: oe-alliance-base-dev_5.9-r4_geniuse3hd.ipk
+MD5Sum: 8c7056772bd2fb19e8210c114a6ad0f6
+SHA256sum: dbe3c1d86a5de5094612202de1f2329e69987d157b8b170ef8d410ac3fb1dc63
+Size: 808
+Filename: oe-alliance-base-dev_6.0-r4_geniuse3hd.ipk
 Source: oe-alliance-base.bb
 Description: Base packages require for image. - Development files
 OE: oe-alliance-base
@@ -2320,16 +2320,16 @@ License: MIT
 Priority: optional
 
 Package: oe-alliance-base
-Version: 5.9-r4
-Depends: 7zip, bash, cronie, dropbear, e2fsprogs-mke2fs, early-configure, elfutils, minilocale, modutils-loadscript, oe-alliance-botfeed-configs, oe-alliance-enigma2, oe-alliance-feeds-configs, opkg, packagegroup-base, packagegroup-core-boot, parted, procps, rc-local, util-linux-blkid, util-linux-flock, util-linux-sfdisk, volatile-media, wget, wireless-tools
+Version: 6.0-r4
+Depends: 7zip, bash, cronie, dropbear, e2fsprogs-mke2fs, early-configure, elfutils, minilocale, modutils-loadscript, oe-alliance-3rdparty-feed, oe-alliance-botfeed-configs, oe-alliance-enigma2, oe-alliance-feeds-configs, opkg, packagegroup-base, packagegroup-core-boot, parted, procps, rc-local, tzdata, util-linux-blkid, util-linux-flock, util-linux-sfdisk, volatile-media, wget, wireless-tools
 Recommends: kernel-module-exportfs, kernel-module-fat, kernel-module-msdos, kernel-module-nls-cp437, kernel-module-nls-iso8859-1, kernel-module-nls-iso8859-15, kernel-module-vfat, kernel-module-xfs
 Section: base
 Architecture: geniuse3hd
 Maintainer: OpenFIX
-MD5Sum: 1e53f9bf1f1cfa5e83e6e5305e3db52f
-SHA256sum: 2d8b78b41b39657a48e3a1c45dbefb91d8992cbb451ebb155cbdccc70a5fbf44
-Size: 746
-Filename: oe-alliance-base_5.9-r4_geniuse3hd.ipk
+MD5Sum: 212afa02ba5ec306ca41bfc3e41f428a
+SHA256sum: 9d1f387ccfd3dc40aef31a14ea4d46cdaf0155289759637bddfd2bfa2dcb12b2
+Size: 764
+Filename: oe-alliance-base_6.0-r4_geniuse3hd.ipk
 Source: oe-alliance-base.bb
 Description: Base packages require for image.
 OE: oe-alliance-base
@@ -2338,81 +2338,81 @@ License: MIT
 Priority: optional
 
 Package: oe-alliance-branding-dbg
-Version: 5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd
+Version: 6.0+git1165+a6a00cf0+a6a00cf39c-r20251119-geniuse3hd
 Recommends: glibc-dbg
 Section: devel
 Architecture: geniuse3hd
 Maintainer: oe-alliance team
-MD5Sum: 5edf315a9d50dc586572fda4e77f98cb
-SHA256sum: 8229ca0624e5eb2598e2cbc4035e06148e3995f5fa9931c76969fc9c75ce1a6c
-Size: 94284
-Filename: oe-alliance-branding-dbg_5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd_geniuse3hd.ipk
+MD5Sum: d2b4b0e75424160f8d067973e1ca065b
+SHA256sum: 0c390cd304ec0fc090404657900cd4826b6e4952b52bd4345a4096fe28556f83
+Size: 94904
+Filename: oe-alliance-branding-dbg_6.0+git1165+a6a00cf0+a6a00cf39c-r20251119-geniuse3hd_geniuse3hd.ipk
 Source: oe-alliance-branding.bb
-Description: oe-alliance-branding version 5.9+git-r20250820-geniuse3hd - Debugging files
+Description: oe-alliance-branding version 6.0+git-r20251119-geniuse3hd - Debugging files
 OE: oe-alliance-branding
 HomePage: https://gisclub.tv
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: oe-alliance-branding-dev
-Version: 5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd
-Recommends: glibc-dev, oe-alliance-branding (= 5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd), python3-dev
+Version: 6.0+git1165+a6a00cf0+a6a00cf39c-r20251119-geniuse3hd
+Recommends: glibc-dev, oe-alliance-branding (= 6.0+git1165+a6a00cf0+a6a00cf39c-r20251119-geniuse3hd), python3-dev
 Section: devel
 Architecture: geniuse3hd
 Maintainer: oe-alliance team
-MD5Sum: 1d483e8d89676ebfc18441063118d61c
-SHA256sum: efe4420fd387cab95ead417831819302196b63ac8e3aac929a59f51918304208
+MD5Sum: 6e1ba8e4951f2d06123ce791fac6e421
+SHA256sum: 3e1d478289009a48f234d46c7f6c44209c5a9b6cfa69eb72bf131b647faabe11
 Size: 666
-Filename: oe-alliance-branding-dev_5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd_geniuse3hd.ipk
+Filename: oe-alliance-branding-dev_6.0+git1165+a6a00cf0+a6a00cf39c-r20251119-geniuse3hd_geniuse3hd.ipk
 Source: oe-alliance-branding.bb
-Description: oe-alliance-branding version 5.9+git-r20250820-geniuse3hd - Development files
+Description: oe-alliance-branding version 6.0+git-r20251119-geniuse3hd - Development files
 OE: oe-alliance-branding
 HomePage: https://gisclub.tv
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: oe-alliance-branding-src
-Version: 5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd
+Version: 6.0+git1165+a6a00cf0+a6a00cf39c-r20251119-geniuse3hd
 Section: devel
 Architecture: geniuse3hd
 Maintainer: oe-alliance team
-MD5Sum: a79951945c2f75a0c0b0c1357ee01039
-SHA256sum: a972a2b04e78b464f37858e8108d0fec72501dbe3831cb2ed8f542dde8f7d439
-Size: 4388
-Filename: oe-alliance-branding-src_5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd_geniuse3hd.ipk
+MD5Sum: 138e8d3d021754a7a63e50a1f1c39fbb
+SHA256sum: 613b90dfc3ab5093ee52938ef297a45bc4ef14a9caa5be61c7c709a7f1419a23
+Size: 4404
+Filename: oe-alliance-branding-src_6.0+git1165+a6a00cf0+a6a00cf39c-r20251119-geniuse3hd_geniuse3hd.ipk
 Source: oe-alliance-branding.bb
-Description: oe-alliance-branding version 5.9+git-r20250820-geniuse3hd - Source files
+Description: oe-alliance-branding version 6.0+git-r20251119-geniuse3hd - Source files
 OE: oe-alliance-branding
 HomePage: https://gisclub.tv
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: oe-alliance-branding
-Version: 5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd
-Depends: libc6 (>= 2.41+git0+0c76c95162)
+Version: 6.0+git1165+a6a00cf0+a6a00cf39c-r20251119-geniuse3hd
+Depends: libc6 (>= 2.42+git0+e34453cd6a)
 Section: base
 Architecture: geniuse3hd
 Maintainer: oe-alliance team
-MD5Sum: b44f4360f099e497847c18415381e0ce
-SHA256sum: 58ab4da6e4be758dac209695e5b54aff0080af3fcfc658d5383a26bd0d113d50
-Size: 136784
-Filename: oe-alliance-branding_5.9+git1163+7f7da300+7f7da30f2e-r20250820-geniuse3hd_geniuse3hd.ipk
+MD5Sum: ed426ea0193d85cf309d87e0249beb2d
+SHA256sum: a8b99e057bc8927e0c64245cabbedc113a679de8c0b1764153ee51d24057cca8
+Size: 136828
+Filename: oe-alliance-branding_6.0+git1165+a6a00cf0+a6a00cf39c-r20251119-geniuse3hd_geniuse3hd.ipk
 Source: oe-alliance-branding.bb
-Description: oe-alliance-branding version 5.9+git-r20250820-geniuse3hd
+Description: oe-alliance-branding version 6.0+git-r20251119-geniuse3hd
 OE: oe-alliance-branding
 HomePage: https://gisclub.tv
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: oe-alliance-feeds-configs-dbg
-Version: 1.0-r4
+Version: 1.0-r6
 Section: devel
 Architecture: geniuse3hd
 Maintainer: OpenFIX
-MD5Sum: b024a77b59b0ce7c531c4e7976f89f3e
-SHA256sum: edca591929275dcca4bebd07d5844704ccce41430fd37670bdb403ddca11d804
+MD5Sum: 761ee969502ba1cb082082b2eebb9009
+SHA256sum: d853f6dcb6a64af6831c50458a58864d9c8390b0003e2d37bb731d9c3256b3e2
 Size: 602
-Filename: oe-alliance-feeds-configs-dbg_1.0-r4_geniuse3hd.ipk
+Filename: oe-alliance-feeds-configs-dbg_1.0-r6_geniuse3hd.ipk
 Source: oe-alliance-feeds-configs.bb
 Description: Configuration files for online package repositories aka feeds - Debugging files
 OE: oe-alliance-feeds-configs
@@ -2421,15 +2421,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: oe-alliance-feeds-configs-dev
-Version: 1.0-r4
-Recommends: oe-alliance-feeds-configs (= 1.0-r4)
+Version: 1.0-r6
+Recommends: oe-alliance-feeds-configs (= 1.0-r6)
 Section: devel
 Architecture: geniuse3hd
 Maintainer: OpenFIX
-MD5Sum: c1e2189939f12eea9437f0391b6de37f
-SHA256sum: 1704724b4ae1436e1ebf7f802b9e46317af0faa72874002a23c7c205ebc76fa5
+MD5Sum: 1828189b9af7e0d920c6c596bf96600e
+SHA256sum: d91e4d2b5595e53a7335c4d4253575edd9e77f6fccef8ad56d421f9e3238e2e8
 Size: 636
-Filename: oe-alliance-feeds-configs-dev_1.0-r4_geniuse3hd.ipk
+Filename: oe-alliance-feeds-configs-dev_1.0-r6_geniuse3hd.ipk
 Source: oe-alliance-feeds-configs.bb
 Description: Configuration files for online package repositories aka feeds - Development files
 OE: oe-alliance-feeds-configs
@@ -2438,16 +2438,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: oe-alliance-feeds-configs
-Version: 1.0-r4
+Version: 1.0-r6
 Replaces: distro-feed-configs
 Conflicts: distro-feed-configs
 Section: base
 Architecture: geniuse3hd
 Maintainer: OpenFIX
-MD5Sum: 4e581c339ee56ef9c67c12d66bae24fe
-SHA256sum: f18604fb849176cfeac726a25b45090f2406913364c55c14b662ec2cd7d66331
-Size: 1048
-Filename: oe-alliance-feeds-configs_1.0-r4_geniuse3hd.ipk
+MD5Sum: cda3984b0588c5ed02c713e12044f81a
+SHA256sum: 0d6f6432244be97594ee43a5b08b6f32d54690bd82a94d80df1220794a398906
+Size: 890
+Filename: oe-alliance-feeds-configs_1.0-r6_geniuse3hd.ipk
 Source: oe-alliance-feeds-configs.bb
 Description: Configuration files for online package repositories aka feeds
 OE: oe-alliance-feeds-configs
@@ -2456,49 +2456,49 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: oe-alliance-remote-dbg
-Version: 5.9+git133+9fc12550+9fc1255202-r3-geniuse3hd
+Version: 6.0+git135+54b587a0+54b587afe8-r4-geniuse3hd
 Section: devel
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 8a31d6cdb7c010bca95e3a54cae3a128
-SHA256sum: 25d99d26b983bb1d2f11609e17c7f9ef7df8de1cafd53bc67182b2e66915999b
+MD5Sum: 5ef4ba22f8535d3f61d4d69e8f02095f
+SHA256sum: 496598d2df0e1218b143f41e6aa4e51d258f03a8a7ca3ff8d12378c991cfc63c
 Size: 626
-Filename: oe-alliance-remote-dbg_5.9+git133+9fc12550+9fc1255202-r3-geniuse3hd_geniuse3hd.ipk
+Filename: oe-alliance-remote-dbg_6.0+git135+54b587a0+54b587afe8-r4-geniuse3hd_geniuse3hd.ipk
 Source: oe-alliance-remote.bb
-Description: oe-alliance-remote version 5.9+git-r3-geniuse3hd - Debugging files
+Description: oe-alliance-remote version 6.0+git-r4-geniuse3hd - Debugging files
 OE: oe-alliance-remote
 HomePage: https://gisclub.tv
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: oe-alliance-remote-dev
-Version: 5.9+git133+9fc12550+9fc1255202-r3-geniuse3hd
-Recommends: oe-alliance-remote (= 5.9+git133+9fc12550+9fc1255202-r3-geniuse3hd)
+Version: 6.0+git135+54b587a0+54b587afe8-r4-geniuse3hd
+Recommends: oe-alliance-remote (= 6.0+git135+54b587a0+54b587afe8-r4-geniuse3hd)
 Section: devel
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 1fef866c5e3df377ea83bf245fca7a26
-SHA256sum: d687a3b5c64339d87029a4aba0f439b38babffeef744e9dee1a7211b3fe83d6a
+MD5Sum: 15aaef0af94537a288fd7c0ca44e7083
+SHA256sum: f73daf3bbb2ced357cf43de3be45dc5b1efab88dc249593771d2e3f0f5eb3f52
 Size: 666
-Filename: oe-alliance-remote-dev_5.9+git133+9fc12550+9fc1255202-r3-geniuse3hd_geniuse3hd.ipk
+Filename: oe-alliance-remote-dev_6.0+git135+54b587a0+54b587afe8-r4-geniuse3hd_geniuse3hd.ipk
 Source: oe-alliance-remote.bb
-Description: oe-alliance-remote version 5.9+git-r3-geniuse3hd - Development files
+Description: oe-alliance-remote version 6.0+git-r4-geniuse3hd - Development files
 OE: oe-alliance-remote
 HomePage: https://gisclub.tv
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: oe-alliance-remote
-Version: 5.9+git133+9fc12550+9fc1255202-r3-geniuse3hd
+Version: 6.0+git135+54b587a0+54b587afe8-r4-geniuse3hd
 Section: base
 Architecture: geniuse3hd
 Maintainer: OE-Alliance
-MD5Sum: 70e3de73a8f533fc6e3fc93243b37bdd
-SHA256sum: 63764a63b97039833a12a91af7ed08ea0956e8f2ab097bd29bd9b070dbbcfc7a
+MD5Sum: b080da54b2c7fb74780eb798f51c96d8
+SHA256sum: ddc4dd069d4784f6b5a3d42c0d56183504d1c9f740697689da515cf0ece119b4
 Size: 97958
-Filename: oe-alliance-remote_5.9+git133+9fc12550+9fc1255202-r3-geniuse3hd_geniuse3hd.ipk
+Filename: oe-alliance-remote_6.0+git135+54b587a0+54b587afe8-r4-geniuse3hd_geniuse3hd.ipk
 Source: oe-alliance-remote.bb
-Description: oe-alliance-remote version 5.9+git-r3-geniuse3hd
+Description: oe-alliance-remote version 6.0+git-r4-geniuse3hd
 OE: oe-alliance-remote
 HomePage: https://gisclub.tv
 License: GPL-2.0-or-later
@@ -2545,9 +2545,9 @@ Conflicts: opkg-config-base
 Section: base
 Architecture: geniuse3hd
 Maintainer: OpenFIX
-MD5Sum: efa2d7edc99a7a17199a8e1bb1517d45
-SHA256sum: 2f927945704480251bdcc7e42170a664b4ae6a3551c778d6e3bc8639f85c9151
-Size: 796
+MD5Sum: e063aacbc3a76f46c175df062db9446d
+SHA256sum: 7543ab6df68a6576456cc83a7244a13061461ba87f5a5a662709ea6cafb6308c
+Size: 786
 Filename: opkg-arch-config_1.0-r0_geniuse3hd.ipk
 Source: opkg-arch-config_1.0.bb
 Description: Architecture-dependent configuration for opkg
